@@ -115,8 +115,8 @@ nav.top-bar {
     padding:.5em .8em;
 }
 .top-bar-section ul li a {
-    font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
-    letter-spacing:.05em;
+    font-family:'Gruppo', Helvetica, Arial, sans-serif !important;;
+    letter-spacing:2px;
 	text-transform:none;
     font-weight:400;
 }
@@ -738,7 +738,7 @@ section.inset.right.modalload img {
 .infobox p, .infobox li     {
     width:100%;
 	font-family:'Alegreya Sans', Helvetica, Arial, sans-serif;
-    font-size:1.15em;
+    font-size:1.35em;
 	font-weight:400;
 	text-indent:0;
 	line-height:1.35;
@@ -747,11 +747,9 @@ section.inset.right.modalload img {
 	padding:0 10px;
 }
 .infobox p em, .infobox li em    {
-   font-family: Georgia, Times, serif !important;
-   font-weight:400;
-	font-size:.8effem;
-	font-style:italic;
-	color:#999;
+    font-style:italic;
+	font-size:90%;
+    color:#999;
 	letter-spacing:1px;
 }
 .infobox h3.subheading {
@@ -771,7 +769,7 @@ section.inset.right.modalload img {
 .infobox p.category, .infobox li.category     {
     width:100%;
 	font-family: 'Cutive', Georgia, Times, serif !important;
-	font-size:1.25em;
+	font-size:1.45em;
 	text-indent:0;
 	line-height:1.35;
     margin:0;
@@ -911,7 +909,7 @@ p.small {
 .centerphoto {
     width:100%;
     padding:0;
-    margin:3em 0 4em;
+    margin:4em 0;
 }
 
 
