@@ -64,7 +64,7 @@ nav.top-bar {
     background:#000;
     color:#c9c9c9;
     font-weight:400;
-    font-size:1em;
+    font-size:1.05em;
 }
 .top-bar .top-bar-section .dropdown li {
 	margin-right:.8em;
@@ -99,7 +99,7 @@ nav.top-bar {
     border-top-color: #ddd;
 }
 .top-bar-section .divider.wide {
-    margin-right:2em;/*width:2em;*/
+    margin-right:1.5em;/*width:2em;*/
 }
 .top-bar-section .has-dropdown.hover>.dropdown,
 .top-bar-section .has-dropdown.not-click:hover>.dropdown {
