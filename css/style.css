@@ -294,22 +294,37 @@ div#name2 h2 {
 
 /* ----------------------------- Display Typography ----------------------------- */ 
 
+.title h2 {
+    display:inline-block;
+    font-family:'Gruppo', Helvetica, Arial, sans-serif !important;;
+    font-weight:400;
+     font-size:2em;
+    padding:0 .65em;
+    line-height:1.65;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin:2em auto 0;
+    text-align: center;
+    color:#fff;
+    background-color:#828b6b;
+}
 .title h3 {
     font-family: 'Cutive', Georgia, Times, serif !important;
     font-weight:400;
     width: 100%;
     font-size:1.45em;
     line-height:1.65;
-    margin:3.5em auto 0;
-    text-align: center;
+    margin:2em auto 0;
+    text-align: left;
     color:rgba(0,0,0,0.5);
 }
 .title h1 {
-    text-align: center;
-    font-family:'Gruppo', Helvetica, Arial, sans-serif !important;;
-    font-size:7em;
-    line-height:.85;
-    letter-spacing:-2px;
+    text-align: left;
+    font-family: 'Neuton', Georgia, Times, serif !important;
+    font-weight:700;
+    font-size:6.5em;
+    line-height:.9;
+    letter-spacing:-1px;
     color:rgba(34,34,34,1);
     display:block;
     z-index:-1;
@@ -446,7 +461,7 @@ p.blurb {
     font-weight:400;
 }
 p.byline {
-    text-align:center;
+    text-align:left;
     font-size:1.2em;
     margin-bottom:5em;
 	letter-spacing:.25em;
@@ -696,7 +711,7 @@ p.lead .has-tip {
 div.title.lowertitle {
     margin-top: 4em;
 }
-div.title h2 {
+/*div.title h2 {
     margin:25% 0 4%;
     text-align: center;
     font-family:'Noticia Text', Helvetica, Arial, sans-serif !important;
@@ -718,7 +733,7 @@ div.title.lowertitle h1 {
     padding-top:1em;
     width:80%;
 }
-/*h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   	font-family:'PT Sans Narrow', Helvetica, Arial, sans-serif !important;
   	font-weight:700;
 }*/
@@ -978,10 +993,10 @@ p.credit {
     background:#fff;
 }
 .chart h3.subheading {
-    font-size:2em;
+    font-size:2.5em;
     margin:0 auto;
-    font-family: 'Cutive', Georgia, Times, serif !important;
-     
+    font-family: 'Neuton', Georgia, Times, serif !important;
+    font-weight:700;
 }
 .chart p {
     margin:1em 0;
@@ -1233,11 +1248,16 @@ div#footer-bar ul.social li {
     	font-size:1.65em;
     	padding:2.55em .5em;
     }
+    .title h2 {
+        font-size:1.5em;
+        padding:0 .65em;
+    }
     .title h3 {
         font-size:1.35em;
     }
     .title h1 {
         font-size:5em;
+        line-height:.95;
     }
     .centerphoto{
         margin:3em 0;
@@ -1257,6 +1277,10 @@ div#footer-bar ul.social li {
     .centerphoto{
         margin:2em 0;
     }
+    .title h1 {
+        line-height:1;
+        margin-top:.25em;
+    }
 
 }
 /* ------------------------------------------  837px ------------------------------------------  */
@@ -1271,7 +1295,7 @@ div#footer-bar ul.social li {
     .hedline h1 {
     	font-size:.8em;
     	line-height:1.3;
-    	letter-spacing:1px;
+    	letter-spacing:0;
     	margin:0 .5em;
     }
     .panel-intro {
@@ -1286,7 +1310,7 @@ div#footer-bar ul.social li {
          line-height:1.8;
     }
     .chart h3.subheading {
-        font-size:1.5em;
+        font-size:2em;
     }
     .chart p {
         font-size:1.55em; 
@@ -1334,6 +1358,14 @@ div#footer-bar ul.social li {
    .opener {
         background-position: 47% 90%;
     }
+    
+
+    .title h2 {
+        font-size:1.25em;
+        padding:0 .65em;
+        margin:1.5em auto -.75em;
+    }
+
     .title h1 {
         font-size:4em;
     }
@@ -1342,6 +1374,7 @@ div#footer-bar ul.social li {
     }
     p.byline {
        font-size:1em;
+       margin-top:1.5em;
     }
     p.bylinebottom {
         font-size:1.25em;
@@ -1363,6 +1396,11 @@ div#footer-bar ul.social li {
     .navigation-bottom{
     	top:70px;
     }
+    .title h2 {
+        font-size:1em;
+        padding:0 .65em;
+        margin:1.5em auto -.75em;
+    }
     .title h1 {
         font-size:3em;
     }
@@ -1372,13 +1410,16 @@ div#footer-bar ul.social li {
     p {
        font-size:1.2em;
        line-height:1.5;
-     }
+    }
+    p.byline {
+       font-size:.95em;
+    }
     .caption {
          font-size:1.25em;
          line-height:1.55;
      }  
     .chart h3.subheading {
-        font-size:1.4em;
+        font-size:1.65em;
     }
     .chart p {
         font-size:1.3em;
@@ -1399,6 +1440,9 @@ div#footer-bar ul.social li {
     .panel-hike {
     	width:25%;
     	margin-left:75%;
+    }
+   .title h1 {
+        font-size:2.5em;
     }
 
 }
