@@ -463,10 +463,9 @@ p.blurb {
 p.byline {
     text-align:left;
     font-size:1.2em;
-    margin-bottom:5em;
-	letter-spacing:.25em;
+   letter-spacing:.25em;
 	text-transform:uppercase;
-	margin:2em auto 0;
+	margin:2em auto 3.5em;
 	 color:rgba(0,0,0,0.5);
 
 }
@@ -924,7 +923,7 @@ p.small {
 .centerphoto {
     width:100%;
     padding:0;
-    margin:4em 0;
+    margin:2em 0 3em;
 }
 
 
@@ -1281,6 +1280,9 @@ div#footer-bar ul.social li {
         line-height:1;
         margin-top:.25em;
     }
+    p.byline{
+        margin-bottom:2em;
+    }
 
 }
 /* ------------------------------------------  837px ------------------------------------------  */
@@ -1309,6 +1311,9 @@ div#footer-bar ul.social li {
     .panel-hike {
     	width:22%;
     }
+ 
+
+
     .caption {
          line-height:1.8;
     }
@@ -1418,6 +1423,12 @@ div#footer-bar ul.social li {
     p.byline {
        font-size:.9em;
        letter-spacing:2px;
+    }
+    .dropcap {
+        font-size:2.65em; 
+        line-height: .8; 
+        padding-right:.1em;
+        margin-top:.33em;
     }
     .caption {
          font-size:1.25em;
