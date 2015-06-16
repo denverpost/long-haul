@@ -64,7 +64,7 @@ nav.top-bar {
     background:#000;
     color:#c9c9c9;
     font-weight:400;
-    font-size:1.05em;
+    font-size:1.02em;
 }
 .top-bar .top-bar-section .dropdown li {
 	margin-right:.8em;
@@ -294,19 +294,28 @@ div#name2 h2 {
 
 /* ----------------------------- Display Typography ----------------------------- */ 
 
-.title h2 {
+.title h2,
+.title h4  {
     display:inline-block;
     font-family:'Gruppo', Helvetica, Arial, sans-serif !important;;
     font-weight:400;
-     font-size:2em;
+    font-size:2em;
     padding:0 .65em;
     line-height:1.65;
     text-transform:uppercase;
     letter-spacing:2px;
-    margin:2em auto 0;
+    margin:2em 0 0;
     text-align: center;
     color:#fff;
     background-color:#828b6b;
+}
+.title h2.plan {
+    color:#333;
+    background-color:#fff2f7;
+}
+.title h4 {
+    margin-left:-5px;
+    background-color:#897878;
 }
 .title h3 {
     font-family: 'Cutive', Georgia, Times, serif !important;
@@ -444,10 +453,9 @@ p.lead {
 	font-family: 'Cutive', Georgia, Times, serif !important;
 	color: #e57c00; 
 	font-size:3em; 
-	line-height: 1; 
-	padding-right:.05em;
-	margin-top:.275em;
-	
+	line-height: .85; 
+	padding-right:.1em;
+	margin-top:.36em;
 	}
 
 p.blurb {
@@ -920,13 +928,25 @@ p.small {
 .twinphoto .photoright .caption {
     padding-right:1em;
 }
+
+
+
+
+
+
+
+
+
 .centerphoto {
     width:100%;
     padding:0;
     margin:2em 0 3em;
 }
 
-
+.inset .centerphoto {
+    padding:0 3em 0 0;
+    margin:1em 0 1em -.5em;
+}
 
 
 /* --------------------- Captions --------------------- */
@@ -1247,7 +1267,8 @@ div#footer-bar ul.social li {
     	font-size:1.65em;
     	padding:2.55em .5em;
     }
-    .title h2 {
+    .title h2,  
+    .title h4 {
         font-size:1.5em;
         padding:0 .65em;
     }
@@ -1283,6 +1304,8 @@ div#footer-bar ul.social li {
     p.byline{
         margin-bottom:2em;
     }
+ 
+
 
 }
 /* ------------------------------------------  837px ------------------------------------------  */
@@ -1323,10 +1346,20 @@ div#footer-bar ul.social li {
     .chart p {
         font-size:1.55em; 
     }
+    .inset .centerphoto {
+        padding-right:2em;
+    }
+
 
 }
 
+/* ------------------------------------------  642px ------------------------------------------  */
 
+@media (max-width:642px) {
+    .inset .centerphoto {
+        padding:0 6em;
+    }
+}
 
 /* ------------------------------------------  669px ------------------------------------------  */
 
@@ -1368,7 +1401,8 @@ div#footer-bar ul.social li {
     }
     
 
-    .title h2 {
+    .title h2,
+    .title h4 {
         font-size:1.25em;
         padding:0 .65em;
         margin:1.5em auto -.75em;
@@ -1394,7 +1428,7 @@ div#footer-bar ul.social li {
     .chart p {
         font-size:1.45em;    
     }
-
+   
 }
 
 
@@ -1404,7 +1438,8 @@ div#footer-bar ul.social li {
     .navigation-bottom{
     	top:70px;
     }
-    .title h2 {
+    .title h2,
+    .title h4 {
         font-size:1em;
         padding:0 .65em;
         margin:1.5em auto -.75em;
@@ -1444,6 +1479,9 @@ div#footer-bar ul.social li {
         margin:2em 0 1em;
     }
 
+    .inset .centerphoto {
+        padding:0 2em;
+    }
 }
 
 /* ------------------------------------------  360px ------------------------------------------  */
