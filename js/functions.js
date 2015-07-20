@@ -1,8 +1,8 @@
-var pathRoot = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':'+window.location.port : '') + window.location.pathname;
-var titleRoot = document.title;
+var href = location.href.split('/');
+href.pop();
+var adPathRoot = href.join('/') + '/';
 var body = document.body, html = document.documentElement;
 var docHeight = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
-var current = '';
 var swapped = false;
 var galleriesLoaded = [];
 var adsloaded = [];
@@ -10,9 +10,6 @@ var adsloaded = [];
 var showAds = true; //show slide-up leaderboards at bottom
 var slideAds = 3; //number of times to slide up a leaderboard
 var titleFade = true; //whether to fade the Denver Post logo in the top-bar to show the "DP" and a text title
-//var pages = ['#titlepage','#part1','#photos','#part2']; //div/section IDs that should trigger a page view and title change
-var pages = [];
-$('.omnitrig').each(function(i,e) { pages.push('#'+$(e).attr('id')) });
 var galleries = [];
 $('.centergallery').each(function(i,e) { galleries.push('#'+$(e).attr('id')) }); //div/section IDs of galleries to instantiate (must be a div like #photos and have a child, the gallery itself, with the same ID plus 'gallery' -- i.e. #photosgallery)
 
@@ -25,9 +22,9 @@ function revealSocial(type,link,title,image,desc,twvia,twrel) {
     //type can be twitter, facebook or gplus
     var srcurl = '';
     if (type == 'twitter') {
-        srcurl = 'http://twitter.com/share?text=' + title + '&url=' + link + '&via=' + twvia + '&related=' + twrel;
+        srcurl = 'http://twitter.com/intent/tweet?text=' + encodeURIComponent(title).replace('|','%7c') + '&url=' + link + '&via=' + twvia + '&related=' + twrel;
     } else if (type == 'facebook') {
-        srcurl = 'http://www.facebook.com/sharer/sharer.php?s=100&p[url]=' + link + '&p[images][0]=' + image + '&p[title]=' + encodeURIComponent(title) + '&p[summary]=' + encodeURIComponent(desc);
+        srcurl = 'http://www.facebook.com/sharer/sharer.php?s=100&p[url]=' + link + '&p[images][0]=' + image + '&p[title]=' + encodeURIComponent(title).replace('|','%7c') + '&p[summary]=' + encodeURIComponent(desc).replace('|','%7c');
     } else if (type == 'gplus') {
         srcurl = 'https://plus.google.com/share?url=' + link;
     }
@@ -36,21 +33,6 @@ function revealSocial(type,link,title,image,desc,twvia,twrel) {
         window.open(srcurl, type, 'left=60,top=60,width=500,height=500,toolbar=1,resizable=1').focus();
     }
     return false;
-}
-
-function load_omniture() {
-        var omni = $('#omniture').html();
-        $('#omniture').after('<div id="new_omni">' + omni + '</div>');
-}
-function build_url(path) {
-        var url = pathRoot + path;
-        return url;
-}
-function rewrite_url(path, new_title) {
-        var url = build_url(path);
-        current = path;
-        document.title = (typeof new_title == 'undefined' || new_title.length < 1 ) ? titleRoot : new_title + ' - ' + titleRoot;
-        window.history.replaceState('', new_title, url);
 }
 
 $(document).foundation('reveal', {
@@ -217,7 +199,7 @@ function getAdSize() {
 function showAd() {
     var adSize = getAdSize();
     if (adSize) {
-        $('#adframewrapper').html('<iframe src="' + pathRoot + 'ad.html?' + adSize[0] + '" seamless height="' + adSize[2] + '" width="' + adSize[1] + '" frameborder="0"></iframe>');
+        $('#adframewrapper').html('<iframe src="' + adPathRoot + 'ad.html?' + adSize[0] + '" seamless height="' + adSize[2] + '" width="' + adSize[1] + '" frameborder="0"></iframe>');
         $('#adwrapper').fadeIn(400);
         $('a.boxclose').fadeIn(400);
         var adH = $('#adwrapper').height();
@@ -239,7 +221,7 @@ function getAdTimes(numAds) {
     var adReturns = [];
     var chunkHeight = docHeight / numAds;
     var chunkHalf = chunkHeight / 2;
-    for (i=1;i<=numAds;i++) {
+    for (i=0;i<numAds;i++) {
         adReturns.push( Math.round( chunkHalf + (chunkHeight * i) ) );
     }
     return adReturns;
@@ -261,30 +243,9 @@ function checkAdPos() {
     }
 }
 
-function checkPageState(pages) {
-    for (key in pages) {
-        if ($(window).scrollTop() < 100) {
-            rewrite_url('','');
-            break;
-        }
-        var currentpage = pages[key];
-        var next = (pages[parseInt(key) + 1]) ? pages[parseInt(key) + 1] : currentpage;
-        var prev = (pages[parseInt(key) - 1]) ? pages[parseInt(key) - 1] : currentpage;
-        if (isElementInViewport(currentpage) && currentpage != current) {
-            var triggerDiv = $(currentpage);
-            rewrite_url(currentpage.toString(),$(triggerDiv).data('omniTitle'));
-            if ($(triggerDiv).hasClass('omnitrig')) {
-                load_omniture();
-                $(triggerDiv).removeClass('omnitrig');
-            }
-        }
-    }
-}
-
-$('.chart-late').find('img').unveil(300);
-
 $(document).ready(function() {
     checkHash();
+    checkFade();
     checkAdPos();
 });
 
@@ -295,7 +256,6 @@ $(window).scroll(function() {
 setInterval(function() {
     if (didScroll) {
         checkFade();
-        checkPageState(pages);
         revealSlides(galleries);
         checkAdPos();
     }
