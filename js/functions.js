@@ -153,10 +153,12 @@ function fadeNavBar(reverse) {
     if (reverse) {
         $('#name1').animate({opacity:1},500);
         $('#name2').animate({opacity:0},500);
+        $('#name2').css('z-index','0');
         titleFade = true;
     } else {
         $('#name1').animate({opacity:0},500);
         $('#name2').animate({opacity:1},500);
+        $('#name2').css('z-index','3');
         titleFade = false;
     }
 }
