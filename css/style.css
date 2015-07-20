@@ -1768,6 +1768,9 @@ div#footer-bar ul.social li img {
         padding-right:.1em;
         margin-top:0em;*/
     }
+    .cutline {
+        font-size:1em;
+    }
     .caption {
          font-size:1.25em;
          line-height:1.55;
