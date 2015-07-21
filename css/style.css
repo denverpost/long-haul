@@ -478,7 +478,7 @@ div#name2 h2 {
     z-index:-1;
     margin:.4em auto 1em;  
 }
-.title h2.bloghead {
+.blogentry h2.bloghead {
     text-align: center;
     font-family: 'Neuton', Georgia, Times, serif !important;
     font-weight:700;
@@ -494,6 +494,26 @@ div#name2 h2 {
     border-top:1px solid #999;
     padding-top:.75em; 
 }
+.blogentry {
+	padding-bottom:1em;
+	border-bottom:.5em solid #897878;
+}
+.blogentry .button {
+	background-color:#e57c00;
+	color:#fff;
+	font-family: 'Gruppo', Helvetica, Arial, sans-serif !important;
+	font-weight: 400;
+	font-size: 1.4em;
+	padding: .15em 1.5em;
+	line-height: 1.65;
+	text-transform: uppercase;
+}
+.blogentry .button:after {
+	content:'\2192';
+	display:inline;
+	padding-left:.5em;
+}
+
 
 /*
 

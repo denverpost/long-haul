@@ -136,6 +136,42 @@ function isElementInViewport(el) {
     }
 }
 
+function hideBlogEntries() {
+    $('.blogentry').each(function(){
+        var theChildren = new Array();
+        $(this).children().each(function(){
+            theChildren.push($(this))
+        })
+        var theButton = '<div class="blog-read-more button">Keep reading this entry</div>';
+        for(var i=0;i<=theChildren.length;i++) {
+            if(i>5) {
+                $(theChildren[i]).addClass('hide');
+            } else {
+                $(theChildren[i]).addClass('bloghidden');
+            }
+            if (i==5) {
+                $(theChildren[i]).after(theButton);
+            }
+        }
+    });
+    $('.blog-read-more').on('click',function(){
+        var parent = $(this).parent('.blogentry');
+        expandBlogEntry(parent);
+    });
+}
+
+function expandBlogEntry(parent) {
+    $(parent).children().each(function(){
+        if ( $(this).hasClass('blog-read-more') ) {
+            $(this).remove();
+        }
+        if ( ! $(this).hasClass('large-inset') ) {
+            $(this).removeClass('hide');
+            $(this).removeClass('bloghidden');
+        }
+    });
+}
+
 $('.top-top').click(function(evt) {
     $('.toggle-topbar').click();
 });
@@ -249,6 +285,7 @@ $(document).ready(function() {
     checkHash();
     checkFade();
     checkAdPos();
+    hideBlogEntries()
 });
 
 var didScroll = false;
