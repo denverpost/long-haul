@@ -608,7 +608,7 @@ p.intro {
     font-style: italic;
 }
 
-.dropcap {
+p.first-graf:first-of-type:first-letter {
 	float: left; 
 	font-family: 'Neuton', Georgia, Times, serif !important;
 	color: #afbaaa; 
@@ -1933,7 +1933,7 @@ div#footer-bar ul.social li img {
        font-size:.9em;
        letter-spacing:2px;
     }
-    .dropcap {
+    p.first-graf:first-of-type:first-letter {
         font-size:3.45em; 
          /*   line-height: .8; 
         padding-right:.1em;
