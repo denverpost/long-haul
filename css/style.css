@@ -1403,13 +1403,18 @@ p.credit {
 
 }
 
-.chart .centerphoto iframe{
+.chart .centerphoto iframe {
     width:100%;
     height:40em;
 
 }
 
+/* ----------------------------- iframes ----------------------------- */
 
+iframe {
+	border:none;
+	overflow:hidden;
+}
 
 
 
