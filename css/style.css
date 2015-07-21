@@ -637,7 +637,6 @@ p.bylinebottom {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-attachment: absolute;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -1142,10 +1141,10 @@ section.inset.right.modalload img {
 	-webkit-background-repeat:no-repeat;
 	-moz-background-repeat:no-repeat;
 	-o-background-repeat:no-repeat;
-  	background-postion:center;
-	-webkit-background-postion:center;
-	-moz-background-postion:center;
-	-o-background-postion:center;
+  	background-postion:center center;
+	-webkit-background-postion:center center;
+	-moz-background-postion:center center;
+	-o-background-postion:center center;
    	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1763,8 +1762,6 @@ div#footer-bar ul.social li img {
 
 
 
-}
-
 /* ------------------------------------------  700px ------------------------------------------  */
 
 @media only screen and (max-width:700px) {
@@ -1859,12 +1856,13 @@ div#footer-bar ul.social li img {
 
     .afterarticle {
         height: 6em;
+        margin:3em 0;
     }
     .afterarticle a {
-        font-size:.5em;
-        padding:1em 1em;
+        font-size:1.25em;
+        padding:1.45em 1em;
     }
-   
+    
    
 }
 
@@ -1925,6 +1923,23 @@ div#footer-bar ul.social li img {
     .title h5 {
         font-size:1.15em;
     }
+
+    .afterarticle {
+        height: 6em;
+        margin:2em 0;
+    }
+    .afterarticle a {
+        font-size:.9em;
+        padding:2.45em .65em;
+    }
+    
+    .hedline2 h1 {
+        font-size:.75em;
+    }
+   .afterarticle h1 a {
+        line-height:1.25;
+    }
+
  }
 
 /* ------------------------------------------  360px ------------------------------------------  */
