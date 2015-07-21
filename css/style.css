@@ -300,60 +300,65 @@ div#name2 h2 {
 /* ----------------------------- Navigation below the article ----------------------------- */ 
 
 
-.navbar-afterarticle{
+.afterarticle {
     height:10em;
     width:100%;
-    margin-top:2em;
+    margin:4em 0;
     z-index:100;
 }
 
-.navbar-afterarticle a {
+.afterarticle a {
     display:block;
     height:100%;
     width:100%;
     font-family:'Gruppo', Helvetica, Arial, sans-serif !important;
     font-weight:100;
-    font-size:2.5em;
+    font-size:2em;
     text-transform:uppercase;
     text-align:center;
     line-height:1;
-    padding:3.15em 1em;
+    padding:2em 1em;
     margin:0;
     letter-spacing:2px;
     opacity:0.75;
 }
 
-.panel-intro,
-.panel-plan,
-.panel-prep,
-.panel-hike {
+.intro-panel {
     float:left;
     height:100%;
-    width:25%;
+    width:40%;
+}
+.plan-panel,
+.prep-panel,
+.hike-panel {
+    float:left;
+    height:100%;
+    width:20%;
 }
 
-.navbar-afterarticle .panel-plan a {
+    
+.afterarticle .plan-panel a {
     color:#fff;
     background-color:#828b6b;
 }
 
-.navbar-afterarticle .panel-prep a {
+.afterarticle .prep-panel a {
     color:#333;
     background-color:#fff2f7;
 }
 
-.navbar-afterarticle .panel-hike a {
+.afterarticle .hike-panel a {
     color:#fff;
     background-color:#e57c00;
 }
 
-.navbar-afterarticle .panel-plan a:hover,
-.navbar-afterarticle .panel-prep a:hover,
-.navbar-afterarticle .panel-hike a:hover {
-    opacity:0.9;
+.afterarticle .plan-panel a:hover,
+.afterarticle .prep-panel a:hover,
+.afterarticle .hike-panel a:hover {
+    opacity:1.0;
 }
 
-.hedline {
+.hedline2 {
     position:relative;
     right: 0;
     height:100%;
@@ -361,34 +366,43 @@ div#name2 h2 {
     
 }
 
-.hedline h1 {
+.hedline2 h1 {
+    width:100%;
+    font-size:.85em;
+    line-height:1.35;
+    
+}
+
+
+.afterarticle h1 a {
     position:absolute;
     top:50%;
     transform: translateY(-50%);
-    font-family:'Gruppo', Helvetica, Arial, sans-serif !important;
     font-family: 'Cutive', Georgia, Times, serif !important;
     font-weight:400;
     height:auto;
     text-align:right;
-    font-size:1.35em;
+    text-transform:none;
     line-height:1.35;
-    margin:0 1em;
     color:#fff;
     left: 0;
     letter-spacing:2px;
     vertical-align:bottom;
-    
-
 }
 
-.hedline h1 span.tag {
+.afterarticle h1 a:hover {
+    opacity:1.0;
+}
+
+
+.hedline2 h1 a {
+    text-decoration: none;
+}
+
+.hedline2 h1 span.tag {
     color:#ffab47;
 }
 
-.hedline h1 span.punctuation {
-    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
-    font-weight:300;
-}
 
 
 
@@ -410,9 +424,13 @@ div#name2 h2 {
     color:#fff;
     background-color:#828b6b;
 }
-.title h2.plan {
+.title h2.prep {
     color:#333;
     background-color:#fff2f7;
+}
+.title h2.hike {
+    color:#fff;
+    background-color:#e57c00;
 }
 .title h4 {
     margin-left:-5px;
@@ -495,7 +513,7 @@ div#name2 h2 {
 .panel.hike {
 	background-color:#e57c00;
 }
-.panel.intro h1 {
+.navbar-afterarticle .panel.intro h1 {
 	position:relative;
 	font-size:4em;
 	line-height:.9;
@@ -1188,7 +1206,6 @@ a:hover, * a:hover, a:hover * {
 }
 
 
-
 /* ----------------------------- Expand/Collapse Sidebar ----------------------------- */
 
 
@@ -1626,6 +1643,16 @@ div#footer-bar ul.social li img {
     }
 
 }
+
+
+
+/* ------------------------------------------  1136px ------------------------------------------  */
+@media only screen and (max-width:1136px) {
+
+    .afterarticle a {
+        padding:1.5em 1em;
+    }
+}
 /* ------------------------------------------  1024px ------------------------------------------  */
 @media only screen and (max-width:1024px) {
 
@@ -1677,6 +1704,9 @@ div#footer-bar ul.social li img {
     .title h5 {
         font-size:1em;
     }
+    .hedline2 h1 {
+        font-size:.7em;
+    }
 
 }
 /* ------------------------------------------  837px ------------------------------------------  */
@@ -1724,7 +1754,11 @@ div#footer-bar ul.social li img {
     .inset .centerphoto {
         padding-right:2em;
     }
-
+     .afterarticle a {
+        font-size:1.75em;
+        padding:1.95em 1em;
+    }
+}
 
 
 
@@ -1822,7 +1856,13 @@ div#footer-bar ul.social li img {
         margin-bottom:1em;
     }
 
-
+    .afterarticle {
+        height: 6em;
+    }
+    .afterarticle a {
+        font-size:.5em;
+        padding:1em 1em;
+    }
    
    
 }
