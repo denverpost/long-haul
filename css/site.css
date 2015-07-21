@@ -15,15 +15,6 @@ figure {
 .row-gallery--heading {
   position: relative;
 }
-
-
-
-
-
-
-
-
-
 .row-gallery h2 {
     display:inline-block;
     font-family:'Gruppo', Helvetica, Arial, sans-serif !important;
@@ -36,7 +27,6 @@ figure {
     text-align: left;
     color:#8e2a3d;
 }
-
 .row-gallery p {
     display:inline;
     font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
@@ -48,7 +38,6 @@ figure {
     text-align: left;
     color:#7e7e7e;
 }
-
 .row-gallery img {
     width:24px;
     height:24px;
