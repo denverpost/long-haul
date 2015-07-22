@@ -475,6 +475,14 @@ div#name2 h2 {
     font-size:2em; 
     letter-spacing:0;
 }
+
+
+.title h3.subhed {
+    font-size:1.8em;
+    margin:-1.25em 0 1.65em;
+    color:rgba(34,34,34,1);
+    width:80%;
+}
 .title h5 {
     text-align: left;
     font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
@@ -1777,6 +1785,9 @@ div#footer-bar ul.social li img {
     .hedline2 h1 {
         font-size:.7em;
     }
+    .title h3.subhed {
+        margin:0 0 1.65em;
+    }
 
 }
 /* ------------------------------------------  837px ------------------------------------------  */
@@ -1954,6 +1965,9 @@ div#footer-bar ul.social li img {
     .infobox p.category, .infobox li.category     {
         font-size:1.15em;
     }
+     .title h3.subhed {
+        font-size:1.55em;
+     }
    
 }
 
@@ -2030,6 +2044,11 @@ div#footer-bar ul.social li img {
    .afterarticle h1 a {
         line-height:1.25;
     }
+    .title h3.subhed {
+        font-size:1.25em;
+        margin:-.25em auto 1.5em;
+        width:100%;
+     }
 
  }
 
