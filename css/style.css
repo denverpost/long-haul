@@ -442,7 +442,8 @@ div#name2 h2 {
     margin-left:-5px;
     background-color:#897878;
 }
-.title h3 {
+.title h3,
+.title h1.blogintro {
     font-family: 'Cutive', Georgia, Times, serif !important;
     font-weight:400;
     width: 100%;
@@ -470,6 +471,10 @@ div#name2 h2 {
 .title h1.centered {
     text-align: center;
 }
+.title h1.blogintro {
+    font-size:2em; 
+    letter-spacing:0;
+}
 .title h5 {
     text-align: left;
     font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
@@ -491,10 +496,10 @@ div#name2 h2 {
     line-height:.9;
     letter-spacing:0;
     text-transform:none;
-    color:#897878;
+    color:rgba(34,34,34,1);
     display:block;
     z-index:-1;
-    margin:1.5em auto 0; 
+    margin:.75em auto 0; 
     background-color:#fff;
     border-top:1px solid #999;
     padding-top:.75em; 
@@ -633,12 +638,13 @@ p.intro {
     font-style: italic;
 }
 
-p.first-graf:first-of-type:first-letter {
+p span.dropcap {
 	float: left; 
 	font-family: 'Neuton', Georgia, Times, serif !important;
 	color: #afbaaa; 
 	font-size:3.75em; 
-	line-height: .85; 
+	height:.7em;
+    line-height: .85; 
 	padding-right:.2em;
 	margin-top:-.05em;
 	}
@@ -656,7 +662,7 @@ p.blurb {
 p.byline {
     text-align:left;
     font-size:1.2em;
-   letter-spacing:.25em;
+   letter-spacing:.1em;
 	text-transform:uppercase;
 	margin:2em auto 3.5em;
 	 color:rgba(0,0,0,0.5);
@@ -1926,7 +1932,28 @@ div#footer-bar ul.social li img {
         font-size:1.25em;
         padding:1.45em 1em;
     }
-    
+    .reveal-modal{
+        width:80%;
+        margin-left:10%;
+        left:0;
+    }
+    .reveal-modal .close-reveal-modal {
+        top:0.25em;
+        right:0.25em;
+        width:.85em;
+        height:.85em;
+    }
+     .infobox p, .infobox li     {
+        font-size:1.15em;
+        padding-top:.25em;
+    }
+    .infobox h3.subheading {
+        font-size:2.25em;
+        margin:0 auto .5em;
+    }
+    .infobox p.category, .infobox li.category     {
+        font-size:1.15em;
+    }
    
 }
 
@@ -1958,11 +1985,11 @@ div#footer-bar ul.social li img {
        font-size:.9em;
        letter-spacing:2px;
     }
-    p.first-graf:first-of-type:first-letter {
+    p span.dropcap {
         font-size:3.45em; 
-         /*   line-height: .8; 
+        line-height: .8; 
         padding-right:.1em;
-        margin-top:0em;*/
+        margin-top:-.05em;
     }
     .cutline {
         font-size:1em;
