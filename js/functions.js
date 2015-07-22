@@ -35,13 +35,10 @@ function revealSocial(type,link,title,image,desc,twvia,twrel) {
     return false;
 }
 
-$(document).foundation('reveal', {
-    animation: 'fade',
-    animationspeed: 200
-});
 function revealCredits() {
     $('#credits').foundation('reveal', 'open');
 }
+
 function revealSlides(galleries) {
     for (key in galleries) {
         if (galleriesLoaded.indexOf(galleries[key]) == -1) {
@@ -66,6 +63,7 @@ function revealSlides(galleries) {
         }
     }
 }
+
 function checkHash() {
     if (window.location.hash) {
         revealSlides(galleries);

@@ -134,6 +134,11 @@ nav.top-bar {
 .top-bar .back h5 {
     display:none;
 }
+.top-bar li.parent-link a.parent-link:before {
+	content:'\2190';
+	display:inline;
+	padding-right:.5em;
+}
 .top-bar-section ul li.social {
    padding-right: 1em;
 }
@@ -162,7 +167,7 @@ div#name1 {
     top:.45em;
     left:1em;
     position:absolute;
-    width:18em;
+    width:80%;
     padding:.1em;
     opacity:1;
     z-index:2;
