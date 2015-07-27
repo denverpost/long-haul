@@ -226,10 +226,7 @@
 <!-- LEDE -->
 <div class="row">
 	<div class="large-9 large-centered medium-10 medium-centered small-12 columns">
-
-		<h2 class="bloghead">A headline for Dean&rsquo;s first story from the trail</h1>
-		<p class="published">Published July 17, 2015</p>
-		<p class="byline centered">By Dean Krakel</p>
+		<p class="published">Published July 27, 2015</p>
 
 		<div class="row">
 			<div class="large-12 large-centered medium-12 medium-centered small-12 columns">
@@ -239,6 +236,16 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="row">
+			<button type="button" class="slick-prev left"><span>&lt;</span></button>
+			<h2 id="segTitle" class="center">Map: The Colorado Trail</h2>
+			<button type="button" class="slick-next right"><span>&gt;</span></button>
+		</div>
+
+		<p id="segDesc"></p>
+
+		<a href="javascript:mapCreate(30)">West Route</a>
 
 		<p></p>
 	</div>
@@ -364,7 +371,7 @@
 
 	<script>
 		$(document).foundation();
-		mapCreate('map');
+		mapCreate();
 	</script>
 	<script type="text/javascript">
 	var _sf_async_config={};

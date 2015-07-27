@@ -4,31 +4,45 @@ var extendedDesc = {
 }
 
 var mapchunks = {
-	wholetrail: {
+	0: {
 		name: 'The Colorado Trail',
 		desc: 'This is the whole trail',
 		descex: '',
-		lat: '39.052002',
-		lon: '-105.457425',
-		zoom: 7,
+		lat: '38.452261',
+		lon: '-106.358304',
+		zoom: 8,
 		url: 'ct-all-routes.kml',
+		el: ''
+	},
+	29: {
+		name: 'The Colorado Trail Main Route',
+		desc: 'This is the whole trail',
+		descex: '',
+		lat: '38.452261',
+		lon: '-106.358304',
+		zoom: 8,
+		url: 'ct-full-route.kmz',
+		el: ''
+	},
+	30: {
+		name: 'The Colorado Trail West Route',
+		desc: 'This is the whole trail',
+		descex: '',
+		lat: '38.774177',
+		lon: '-106.347318',
+		zoom: 9,
+		url: 'ct-west-route.kmz',
 		el: ''
 	}
 }
 
 var map;
 var kmlBase = 'http://extras.denverpost.com/long-haul/kml/';
+firstRun = true;
 
-var firemapcenter = (typeof getUrlVars()["fire"] != 'undefined') ? getUrlVars()["fire"] : 'state_view';
+function mapCreate(seg) {
 
-var firecenter = new Array();
-		
-//   [zoom level,latitude,longitude]
-firecenter[0] = [7,39.052002,-105.457425]; //default -- state of Colorado
-
-function mapCreate(mapDiv,seg) {
-
-	segment = typeof seg !== 'undefined' ? mapchunks[seg] : mapchunks['wholetrail'];
+	segment = typeof seg !== 'undefined' ? mapchunks[seg] : mapchunks[0];
 	
 	var mapZoom = null;
 
@@ -48,16 +62,23 @@ function mapCreate(mapDiv,seg) {
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	};
 	
-	map = new google.maps.Map(document.getElementById(mapDiv), mapOptions);
+	map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 /* layer toggles */
 	newLayer = new google.maps.KmlLayer({url: kmlBase + segment['url'], preserveViewport: true});
 	//newLayer = new google.maps.KmlLayer({url: 'http://extras.denverpost.com/media/maps/kml/2013/Coloradowildfireperimeters2013.kml', preserveViewport: true});
 	newLayer.setMap(map);
-	console.log(newLayer);
-	console.log(newLayer.getStatus());
 
-	google.maps.event.addListener(map, 'idle', function(){ console.log(map.getZoom() + ', ' + map.getCenter()) })
+	$('#segTitle').html(segment['name']);
+	$('#segDesc').html(segment['desc']);
+
+	if (!firstRun) {
+		scrollDownTo('#map');
+	} else {
+		firstRun = false;
+	}
+
+	google.maps.event.addListener(map, 'idle', function(){ console.log(map.getZoom() + ', ' + map.getCenter()) });
 }
 
 function toggleLayer(i,caller) {

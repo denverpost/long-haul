@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>totalColWestroute.kml</name>
 	<Style id="RoutePath">
 		<LineStyle>
-			<color>cc006699</color>
+			<color>cc0099ff</color>
 			<width>4</width>
 		</LineStyle>
 	</Style>
