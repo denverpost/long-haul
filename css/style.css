@@ -1474,19 +1474,27 @@ p.credit {
 
 /* ----------------------------- Gear ----------------------------- */ 
 
+#finalgear {
+    background-color: #e1e1e0;
+    padding:3em;
+}
 
 div.gear {
     display:inline-block;
     float:left;
-    margin-right:3%;
-    width:22%;
+    margin:0 2%;
+    width:21%;
+}
+div.gear img {
+     border-radius: 100px;
 }
 div.gear h6 {
     font-family: 'Cutive', Georgia, Times, serif !important;
     text-align: center;
     font-size:.9em;
-    margin:1em 0;
-    height:3em;
+    margin:1.5em 0;
+    height:3.5em;
+    letter-spacing:.02em;
 
 }
 div.gear h6 span {
@@ -1930,6 +1938,30 @@ div#footer-bar ul.social li img {
     .centerphoto{
         margin-bottom:0em;
      }
+     .centervideo {
+        margin:.5em 0 .25em;
+    }
+    .vid-embed-play {
+        height:2em;
+        width:3em;
+        border:2px solid rgba(255,255,255,0.8);
+    }
+    .vid-embed-play .playtext,
+    .vid-embed-play .playicon {
+        top:10%;
+    }
+    .vid-embed-play .playicon:after {
+        font-size: 1.65em;
+    }
+    .vid-embed-play .playtext:after {
+        font-size: .95em;
+    }
+    #video h3{
+    margin-top:1em;
+    }
+    #finalgear {
+        padding:2em;
+    }
 
 }
 
@@ -2058,6 +2090,18 @@ div#footer-bar ul.social li img {
      .title h3.subhed {
         font-size:1.55em;
      }
+      div.gear {
+       margin:3%;
+        width:27%;
+    }
+    div.gear h6 {
+       font-size:.8em;
+       height:2.5em;
+    }
+    div.gear h6 span {
+        font-size:1.25em;
+    }
+    
 
 }
 
@@ -2066,6 +2110,8 @@ div#footer-bar ul.social li img {
     .centerphoto {
         margin-bottom:1em;
     }
+   
+
 }
 
 /* ------------------------------------------  480px ------------------------------------------  */
@@ -2163,8 +2209,31 @@ div#footer-bar ul.social li img {
     section#inset p {
        font-size: 1em;
     }
+     #finalgear {
+        padding:1em;
+    }
+
+     div.gear h6 {
+        font-size:.75em;
+    }
+    div.gear h6 span {
+        font-size:1.25em;
+    }
 
  }
+
+/* ------------------------------------------  400px ------------------------------------------  */
+@media only screen and (max-width:400px) {
+ 
+  div.gear {
+       margin:5%;
+        width:40%;
+    }
+    
+
+    div.gear h6 span {
+        font-size:1.25em;
+    }
 
 /* ------------------------------------------  360px ------------------------------------------  */
 @media only screen and (max-width:360px) {
@@ -2180,7 +2249,12 @@ div#footer-bar ul.social li img {
     section.inset.right {
         width: 100%;
     } 
-   
+     #finalgear {
+        padding:1em;
+    }
+     div.gear h6 span {
+        height:2em;
+    }
 
 }
 
