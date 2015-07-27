@@ -1474,19 +1474,31 @@ p.credit {
 
 /* ----------------------------- Gear ----------------------------- */ 
 
-
+#finalgear {
+    background-color: #7a7b7c;
+}
+#finalgear h3,
+#finalgear p {
+   color:#fff;
+   letter-spacing:.02em;
+}
 div.gear {
     display:inline-block;
     float:left;
     margin-right:3%;
     width:22%;
 }
+div.gear img {
+     border-radius: 100px;
+}
 div.gear h6 {
     font-family: 'Cutive', Georgia, Times, serif !important;
     text-align: center;
     font-size:.9em;
-    margin:1em 0;
-    height:3em;
+    margin:1.5em 0;
+    height:3.5em;
+    color:#fff;
+    letter-spacing:.02em;
 
 }
 div.gear h6 span {
@@ -1930,6 +1942,27 @@ div#footer-bar ul.social li img {
     .centerphoto{
         margin-bottom:0em;
      }
+     .centervideo {
+        margin:.5em 0 .25em;
+    }
+    .vid-embed-play {
+        height:2em;
+        width:3em;
+        border:2px solid rgba(255,255,255,0.8);
+    }
+    .vid-embed-play .playtext,
+    .vid-embed-play .playicon {
+        top:10%;
+    }
+    .vid-embed-play .playicon:after {
+        font-size: 1.65em;
+    }
+    .vid-embed-play .playtext:after {
+        font-size: .95em;
+    }
+    #video h3{
+    margin-top:1em;
+    }
 
 }
 
