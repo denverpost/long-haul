@@ -1515,6 +1515,48 @@ iframe {
 
 /* ----------------------------- map page ---------------------------- */
 
+#mapwrap {
+    margin-bottom:1em;
+}
+#trailmaps p {
+    font-size:1.3em;
+    line-height:1.5;
+}
+#segDesc {
+    font-size:1.5em;
+    font-weight:bold;
+    text-align:center;
+}
+#trailmaps ul.pagination li.current a,
+#trailmaps ul.pagination li.current button {
+    background:rgba(130,139,107,.9);
+}
+#trailmaps ul.pagination li.current a:hover,
+#trailmaps ul.pagination li.current button:hover {
+    background:rgba(130,139,107,1);
+}
+h3.mapsub {
+    text-align:center;
+    font-family: 'Neuton', Georgia, Times, serif !important;
+    margin:0 auto;
+    font-size:1.75em;
+    padding:0;
+    border-bottom: none;
+    width:100%;
+}
+h4.mapsub {
+    text-align:left;
+    font-family: 'Neuton', Georgia, Times, serif !important;
+    margin:0 auto 1em;
+    font-size:1.75em;
+    padding:0;
+    border-bottom: none;
+    width:100%;    
+}
+
+ul.pagination li {
+    font-size:.95em;
+}
 .map-controls button.slick-next {
     padding:0;
     height:3em;

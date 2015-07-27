@@ -91,7 +91,6 @@ function scrollDownTo(whereToScroll, scrollOffset) {
 function toggleSidebar(toShow,toHide) {
     $(toShow).removeClass('hide');
     $(toHide).addClass('hide');
-    rewrite_url(toShow);
     scrollDownTo(toShow);
 }
 
