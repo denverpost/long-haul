@@ -1467,7 +1467,32 @@ iframe {
 	overflow:hidden;
 }
 
+/* ----------------------------- map page ---------------------------- */
 
+.map-controls button.slick-next {
+    padding:0;
+    height:3em;
+    width:3em;
+    text-align:left;
+    background:rgba(255,255,255,1.0);
+    background-image:url(../img/nextButton.svg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    outline:none;
+}
+.map-controls button.slick-prev {
+    padding:0;
+    height:3em;
+    width:3em;
+    text-align:right;
+    background:rgba(255,255,255,1.0);
+    background-image:url(../img/prevButton.svg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    outline:none;
+}
 
 
 
