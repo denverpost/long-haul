@@ -1489,18 +1489,17 @@ div.gear img {
      border-radius: 100px;
 }
 div.gear h6 {
-    font-family: 'Cutive', Georgia, Times, serif !important;
+    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
     text-align: center;
-    font-size:.9em;
+    font-size:1.15em;
+    line-height:1.15;
     margin:1.5em 0;
-    height:3.5em;
-    letter-spacing:.02em;
-
+    height:2.25em;
 }
 div.gear h6 span {
     display:block;
-    font-size:1.15em;
-    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    font-style: italic;
+      letter-spacing:.02em;
 }
 
 
@@ -2005,6 +2004,14 @@ div#footer-bar ul.social li img {
         padding:2em;
     }
 
+    div.gear h6 {
+       font-size:1em;
+       height:2.5em;
+    }
+    div.gear h6 span {
+        font-size:1em;
+    }
+
 }
 
 
@@ -2132,17 +2139,7 @@ div#footer-bar ul.social li img {
      .title h3.subhed {
         font-size:1.55em;
      }
-      div.gear {
-       margin:3%;
-        width:27%;
-    }
-    div.gear h6 {
-       font-size:.8em;
-       height:2.5em;
-    }
-    div.gear h6 span {
-        font-size:1.25em;
-    }
+    
     
 
 }
@@ -2152,7 +2149,13 @@ div#footer-bar ul.social li img {
     .centerphoto {
         margin-bottom:1em;
     }
-   
+    div.gear {
+       margin:3%;
+       width:27%;
+    }
+    div.gear h6 {
+       height:1.75em;
+    }
 
 }
 
@@ -2255,12 +2258,7 @@ div#footer-bar ul.social li img {
         padding:1em;
     }
 
-     div.gear h6 {
-        font-size:.75em;
-    }
-    div.gear h6 span {
-        font-size:1.25em;
-    }
+    
 
  }
 
@@ -2273,8 +2271,8 @@ div#footer-bar ul.social li img {
     }
     
 
-    div.gear h6 span {
-        font-size:1.25em;
+    div.gear h6 {
+        height:1.5em;
     }
 
 /* ------------------------------------------  360px ------------------------------------------  */
