@@ -656,6 +656,10 @@ p span.dropcap {
 	padding-right:.2em;
 	margin-top:-.05em;
 	}
+
+p span.ledein {
+    font-family: 'Neuton', Georgia, Times, serif !important;
+}
 /*
 p.blurb {
     font-family:'Noticia Text', Georgia, Times, 'Times New Roman', serif !important;
