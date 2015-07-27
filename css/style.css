@@ -1475,13 +1475,9 @@ p.credit {
 /* ----------------------------- Gear ----------------------------- */ 
 
 #finalgear {
-    background-color: #7a7b7c;
+    background-color: #e1e1e0;
 }
-#finalgear h3,
-#finalgear p {
-   color:#fff;
-   letter-spacing:.02em;
-}
+
 div.gear {
     display:inline-block;
     float:left;
@@ -1497,7 +1493,6 @@ div.gear h6 {
     font-size:.9em;
     margin:1.5em 0;
     height:3.5em;
-    color:#fff;
     letter-spacing:.02em;
 
 }
