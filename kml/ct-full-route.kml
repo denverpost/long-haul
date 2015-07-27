@@ -8,174 +8,12 @@
 			<width>4</width>
 		</LineStyle>
 	</Style>
-	<Style id="RoutePath0">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath1">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath2">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath3">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath4">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath5">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath6">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath7">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath8">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath9">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath10">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath11">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath12">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath13">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath14">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath15">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath16">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath17">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath18">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath19">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath20">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath21">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath22">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath23">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath24">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath25">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
-	<Style id="RoutePath26">
-		<LineStyle>
-			<color>cc14dcf3</color>
-			<width>4</width>
-		</LineStyle>
-	</Style>
 	<Folder>
 		<name>CTroute</name>
 		<open>1</open>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath5</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -185,7 +23,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath19</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -195,7 +33,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath26</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -205,7 +43,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath25</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -215,7 +53,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath13</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -225,7 +63,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath24</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -235,7 +73,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath18</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -245,7 +83,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath0</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -255,7 +93,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath11</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -265,7 +103,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath21</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -275,7 +113,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath9</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -295,7 +133,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath17</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -305,7 +143,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath6</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -315,7 +153,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath4</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -325,7 +163,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath16</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -335,7 +173,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath12</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -345,7 +183,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath3</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -355,7 +193,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath14</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -365,7 +203,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath1</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -375,7 +213,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath20</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -385,7 +223,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath10</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -395,7 +233,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath15</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -405,7 +243,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath8</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -415,7 +253,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath7</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -425,7 +263,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath22</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -435,7 +273,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath2</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -445,7 +283,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fly-Over Tour</name>
-			<styleUrl>#RoutePath23</styleUrl>
+			<styleUrl>#RoutePath</styleUrl>
 			<LineString id="Route">
 				<tessellate>1</tessellate>
 				<coordinates>
