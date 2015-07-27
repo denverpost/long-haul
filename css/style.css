@@ -443,7 +443,8 @@ div#name2 h2 {
     background-color:#897878;
 }
 .title h3,
-.title h1.blogintro {
+.title h1.blogintro,
+.teaser h3 {
     font-family: 'Cutive', Georgia, Times, serif !important;
     font-weight:400;
     width: 100%;
@@ -455,6 +456,10 @@ div#name2 h2 {
 }
 .title h3.centered {
     text-align: center;
+}
+.teaser h3 {
+    padding:0;
+    margin:0;
 }
 .title h1 {
     text-align: left;
@@ -1374,9 +1379,14 @@ p.small {
     margin:1em 0 1em -.5em;
 }
 
+.inset .centerphoto.insetted {
+    padding:0;
+    margin-left:0;
+}
 
 /* --------------------- Captions --------------------- */
-.cutline {
+.cutline, 
+.inset .centerphoto.insetted .cutline {
   	position:relative;
     top:.5em;
     font-size:1.25em;
@@ -1399,7 +1409,8 @@ p.credit {
    	font-weight:700;
    	color:rgba(0,0,0,0.85);
 }
-span.photog {
+span.photog,
+.inset .centerphoto.insetted .cutline span.photog {
     text-transform:uppercase;
     font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
    	text-transform:uppercase;
@@ -1459,6 +1470,33 @@ p.credit {
     height:40em;
 
 }
+
+
+/* ----------------------------- Gear ----------------------------- */ 
+
+
+div.gear {
+    display:inline-block;
+    float:left;
+    margin-right:3%;
+    width:22%;
+}
+div.gear h6 {
+    font-family: 'Cutive', Georgia, Times, serif !important;
+    text-align: center;
+    font-size:.9em;
+    margin:1em 0;
+    height:3em;
+
+}
+div.gear h6 span {
+    display:block;
+    font-size:1.15em;
+    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+}
+
+
+
 
 /* ----------------------------- iframes ----------------------------- */
 
@@ -2088,6 +2126,12 @@ div#footer-bar ul.social li img {
         width:80%;
         margin:0 10% 1em;
         padding:0;
+    }
+    section#inset {
+        padding:1.5em;
+    }
+    section#inset p {
+       font-size: 1em;
     }
 
  }
