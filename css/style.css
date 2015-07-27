@@ -656,6 +656,10 @@ p span.dropcap {
 	padding-right:.2em;
 	margin-top:-.05em;
 	}
+
+p span.ledein {
+    font-family: 'Neuton', Georgia, Times, serif !important;
+}
 /*
 p.blurb {
     font-family:'Noticia Text', Georgia, Times, 'Times New Roman', serif !important;
@@ -845,6 +849,9 @@ section.inset div.title.lowertitle h1 {
 section.inset .twinphoto {
     margin:4em 0;
 }
+.twinphoto.grouped {
+    margin:0em 0 4em;
+}
 section.inset p.caption {
     font-size:1.05em;
     line-height:1.85;
@@ -901,10 +908,15 @@ section.inset.right {
 
 section.inset p {
     font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
-    font-size:1.15em;
+    font-size:1.25em;
     line-height:1.4;
     color:rgba(0,0,0,0.5);
     margin-top:1em;
+}
+
+section.inset.right p {
+    font-size:1.25em;
+    line-height:1.4;
 }
 
 section.inset p span.number {
@@ -1451,7 +1463,7 @@ p.credit {
 /* ----------------------------- iframes ----------------------------- */
 
 iframe {
-	border:none;
+    border:none;
 	overflow:hidden;
 }
 
@@ -1750,6 +1762,10 @@ div#footer-bar ul.social li img {
         font-size:1.15em;
         margin-top:2em;
     }
+     .title h3.subhed {
+        font-size:1.55em;
+    }
+
     .centerphoto{
         margin:2em 0;
     }
@@ -1811,12 +1827,16 @@ div#footer-bar ul.social li img {
     .title h1 {
        font-size:4.25em;
     }
+   
+
     .hedline h1 {
     	font-size:.8em;
     	line-height:1.3;
     	letter-spacing:0;
     	margin:0 .5em;
     }
+
+
     .panel-intro {
     	width:34%;
     }
@@ -1844,6 +1864,10 @@ div#footer-bar ul.social li img {
         font-size:1.75em;
         padding:1.95em 1em;
     }
+    .centerphoto{
+        margin-bottom:0em;
+     }
+
 }
 
 
@@ -1927,9 +1951,7 @@ div#footer-bar ul.social li img {
     .chart p {
         font-size:1.45em;    
     }
-    section.inset.right p {
-       font-size:1.15em;
-    } 
+    
     section.inset33 {
         border-right:none;
         padding:0;
@@ -1973,9 +1995,15 @@ div#footer-bar ul.social li img {
      .title h3.subhed {
         font-size:1.55em;
      }
-   
+
 }
 
+/* ------------------------------------------  640px ------------------------------------------  */
+@media only screen and (max-width:640px) {
+    .centerphoto {
+        margin-bottom:1em;
+    }
+}
 
 /* ------------------------------------------  480px ------------------------------------------  */
 @media only screen and (max-width:480px) {
@@ -2026,7 +2054,9 @@ div#footer-bar ul.social li img {
     .centerphoto{
         margin:2em 0 1em;
     }
-
+    section.inset.right p {
+       font-size:1.15em;
+    } 
     .inset .centerphoto {
         padding:0 2em;
     }
@@ -2054,6 +2084,16 @@ div#footer-bar ul.social li img {
         margin:-.25em auto 1.5em;
         width:100%;
      }
+     .twinphoto .photoleft {
+        width:80%;
+        margin:0 10% 1em;
+        padding:0;
+    }
+    .twinphoto .photoright {
+        width:80%;
+        margin:0 10% 1em;
+        padding:0;
+    }
 
  }
 
