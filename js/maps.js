@@ -26,7 +26,7 @@ var mapchunks = {
 		descex: 1,
 		lat: '39.449150',
 		lon: '-105.138734',
-		zoom: 12,
+		zoom: 11,
 		url: 's1route.kmz',
 		el: ''
 	},
@@ -37,7 +37,7 @@ var mapchunks = {
 		descex: 1,
 		lat: '39.376788',
 		lon: '-105.215726',
-		zoom: 12,
+		zoom: 11,
 		url: 's2route.kmz',
 		el: ''
 	},
@@ -48,7 +48,7 @@ var mapchunks = {
 		descex: 1,
 		lat: '39.336438',
 		lon: '-105.321126',
-		zoom: 12,
+		zoom: 11,
 		url: 's3route.kmz',
 		el: ''
 	},
@@ -59,7 +59,7 @@ var mapchunks = {
 		descex: 1,
 		lat: '39.337500',
 		lon: '-105.506864',
-		zoom: 12,
+		zoom: 11,
 		url: 's4route.kmz',
 		el: ''
 	},
@@ -70,7 +70,7 @@ var mapchunks = {
 		descex: 1,
 		lat: '39.390322',
 		lon: '-105.690192',
-		zoom: 12,
+		zoom: 11,
 		url: 's5route.kmz',
 		el: ''
 	},
@@ -92,7 +92,7 @@ var mapchunks = {
 		descex: 2,
 		lat: '39.523127',
 		lon: '-106.108365',
-		zoom: 12,
+		zoom: 11,
 		url: 's7route.kmz',
 		el: ''
 	},
@@ -114,7 +114,7 @@ var mapchunks = {
 		descex: 2,
 		lat: '39.319707',
 		lon: '-106.382680',
-		zoom: 12,
+		zoom: 11,
 		url: 's9route.kmz',
 		el: ''
 	},
@@ -125,7 +125,7 @@ var mapchunks = {
 		descex: 2,
 		lat: '39.213652',
 		lon: '-106.418385',
-		zoom: 12,
+		zoom: 11,
 		url: 's10route.kmz',
 		el: ''
 	},
@@ -136,7 +136,7 @@ var mapchunks = {
 		descex: 3,
 		lat: '39.085321',
 		lon: '-106.344914',
-		zoom: 12,
+		zoom: 11,
 		url: 's11route.kmz',
 		el: ''
 	},
@@ -191,7 +191,7 @@ var mapchunks = {
 		descex: 4,
 		lat: '38.340326',
 		lon: '-106.328092',
-		zoom: 12,
+		zoom: 11,
 		url: 's16route.kmz',
 		el: ''
 	},
@@ -202,7 +202,7 @@ var mapchunks = {
 		descex: 4,
 		lat: '38.278635',
 		lon: '-106.484990',
-		zoom: 12,
+		zoom: 11,
 		url: 's17route.kmz',
 		el: ''
 	},
@@ -213,7 +213,7 @@ var mapchunks = {
 		descex: 4,
 		lat: '38.181411',
 		lon: '-106.638455',
-		zoom: 12,
+		zoom: 11,
 		url: 's18route.kmz',
 		el: ''
 	},
@@ -224,7 +224,7 @@ var mapchunks = {
 		descex: 4,
 		lat: '38.075680',
 		lon: '-106.775098',
-		zoom: 12,
+		zoom: 11,
 		url: 's19route.kmz',
 		el: ''
 	},
@@ -235,7 +235,7 @@ var mapchunks = {
 		descex: 4,
 		lat: '37.998344',
 		lon: '-106.894231',
-		zoom: 12,
+		zoom: 11,
 		url: 's20route.kmz',
 		el: ''
 	},
@@ -246,7 +246,7 @@ var mapchunks = {
 		descex: 4,
 		lat: '37.965059',
 		lon: '-107.060056',
-		zoom: 12,
+		zoom: 11,
 		url: 's21route.kmz',
 		el: ''
 	},
@@ -257,7 +257,7 @@ var mapchunks = {
 		descex: 5,
 		lat: '37.899798',
 		lon: '-107.267766',
-		zoom: 12,
+		zoom: 11,
 		url: 's22route.kmz',
 		el: ''
 	},
@@ -268,7 +268,7 @@ var mapchunks = {
 		descex: 5,
 		lat: '37.834208',
 		lon: '-107.459340',
-		zoom: 12,
+		zoom: 11,
 		url: 's23route.kmz',
 		el: ''
 	},
@@ -279,7 +279,7 @@ var mapchunks = {
 		descex: 5,
 		lat: '37.750103',
 		lon: '-107.614865',
-		zoom: 12,
+		zoom: 11,
 		url: 's24route.kmz',
 		el: ''
 	},
@@ -290,7 +290,7 @@ var mapchunks = {
 		descex: 6,
 		lat: '37.736801',
 		lon: '-107.808843',
-		zoom: 12,
+		zoom: 11,
 		url: 's25route.kmz',
 		el: ''
 	},
@@ -301,7 +301,7 @@ var mapchunks = {
 		descex: 6,
 		lat: '37.682207',
 		lon: '-107.954926',
-		zoom: 12,
+		zoom: 11,
 		url: 's26route.kmz',
 		el: ''
 	},
@@ -323,7 +323,7 @@ var mapchunks = {
 		descex: 6,
 		lat: '37.388725',
 		lon: '-107.957501',
-		zoom: 12,
+		zoom: 11,
 		url: 's28route.kmz',
 		el: ''
 	},
@@ -334,7 +334,7 @@ var mapchunks = {
 		descex: 7,
 		lat: '39.042936',
 		lon: '-106.382680',
-		zoom: 12,
+		zoom: 11,
 		url: 'cw1route.kmz',
 		el: ''
 	},
@@ -356,7 +356,7 @@ var mapchunks = {
 		descex: 7,
 		lat: '38.793713',
 		lon: '-106.436925',
-		zoom: 12,
+		zoom: 11,
 		url: 'cw3route.kmz',
 		el: ''
 	},
@@ -367,7 +367,7 @@ var mapchunks = {
 		descex: 7,
 		lat: '38.694101',
 		lon: '-106.413235',
-		zoom: 12,
+		zoom: 11,
 		url: 'cw4route.kmz',
 		el: ''
 	},
@@ -391,6 +391,15 @@ var baseSet = false;
 
 function removeLayer(element,index,array) {
 	layers[index].setMap(null);
+}
+
+function mapHash() {
+	if (window.location.hash) {
+		var hash = parseInt(window.location.hash.toString().replace('#',''),10);
+        if (hash <= 33 && hash >= 1) {
+        	mapSeg(hash);
+        }
+    }
 }
 
 function setMapLinks(seg) {
@@ -466,7 +475,9 @@ function mapCreate(seg) {
 
 	setMapLinks(seg);
 
-	google.maps.event.addListener(map, 'idle', function(){ console.log(map.getZoom() + ', ' + map.getCenter()) });
+	//google.maps.event.addListener(map, 'idle', function(){ console.log(map.getZoom() + ', ' + map.getCenter()) });
+
+	mapHash();
 }
 
 function mapSeg(seg) {

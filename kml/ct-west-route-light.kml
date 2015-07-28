@@ -4,7 +4,7 @@
 	<name>totalColWestroute.kml</name>
 	<Style id="RoutePath">
 		<LineStyle>
-			<color>77ff0000</color>
+			<color>66ff0000</color>
 			<width>4</width>
 		</LineStyle>
 	</Style>

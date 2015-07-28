@@ -71,7 +71,10 @@ function checkHash() {
         if ($(hash).hasClass('hide')) {
             toggleSidebar(hash,hash + 'link');
         } else {
-            scrollDownTo(hash);
+            console.log(parseInt(hash.toString().replace('#',''),10));
+            if (!(parseInt(hash.toString().replace('#',''),10) <= 33 && parseInt(hash.toString().replace('#',''),10) >= 1)) {
+                scrollDownTo(hash);
+            }
         }
     }
 }
