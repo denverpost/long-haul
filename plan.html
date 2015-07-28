@@ -256,7 +256,14 @@
 			<h3 class="subheading">The Colorado Trail</h3>
 			<p>Stretching almost 500 miles from Denver to Durango, the trail has an average elevation over 10,000 feet and it rises and falls dramatically. Users traveling from Denver to Durango will climb a total of 89,354 feet.</p>
 			<div class="centerphoto">
-				<iframe src="http://extras.denverpost.com/maps/news/colorado-trail-google.html"></iframe>
+				<div class="row" id="mapwrap">
+					<div class="large-12 large-centered medium-12 medium-centered small-12 columns">
+						<div class="vid-embed-wrap">
+							<div class="map-height-space"></div>
+							<div id="map" class="vid-embed"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -567,15 +574,17 @@
 <script type="text/javascript" src="./js/foundation.min.js"></script>
 <script type="text/javascript" src="./slick/slick.min.js"></script>
 <script type="text/javascript" src="./js/functions.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=geometry&sensor=false"></script>
+<script type="text/javascript" src="./js/maps.js"></script>
 <script type="text/javascript" src="//player.ooyala.com/v3/fce2cf476df14253a15351f1727031b4"></script>
 <!-- Core JS file -->
 	<script src="./js/photoswipe.js"></script> 
 <!-- UI JS file -->
-	<script src="./js/photoswipe-ui-default.js"></script> 
-<script type="text/javascript" src="//player.ooyala.com/v3/fce2cf476df14253a15351f1727031b4"></script>
+	<script src="./js/photoswipe-ui-default.js"></script>
 
 	<script>
 		$(document).foundation();
+		mapCreate(0,true);
 	</script>
 	<script type="text/javascript">
 	var _sf_async_config={};

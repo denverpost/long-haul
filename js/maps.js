@@ -431,8 +431,8 @@ function setMapLinks(seg) {
 	}
 }
 
-function mapCreate(seg) {
-
+function mapCreate(seg,alone) {
+	alone = typeof alone !== 'undefined' ? false : true;
 	seg = typeof seg !== 'undefined' ? seg : 0;
 	segment = typeof seg !== 'undefined' ? mapchunks[seg] : mapchunks[0];
 	
@@ -457,11 +457,15 @@ function mapCreate(seg) {
 	map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 /* layer toggles */
-	layers.forEach(removeLayer);
+	if (!alone) {
+		layers.forEach(removeLayer);
 
-	if (baseSet) {
-		baseLayer.setMap(null);
-		baseSet = false;
+		if (baseSet) {
+			baseLayer.setMap(null);
+			baseSet = false;
+		}
+		
+		setMapLinks(seg);
 	}
 
 	newLayer = new google.maps.KmlLayer({
@@ -472,8 +476,6 @@ function mapCreate(seg) {
 	});
 	layers[seg] = newLayer;
 	layers[seg].setMap(map);
-
-	setMapLinks(seg);
 
 	//google.maps.event.addListener(map, 'idle', function(){ console.log(map.getZoom() + ', ' + map.getCenter()) });
 
