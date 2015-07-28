@@ -17,7 +17,7 @@ var mapchunks = {
 		lon: '-106.358304',
 		zoom: 8,
 		url: 'ct-all-routes.kml',
-		elimg: 'elev-test.png',
+		elimg: 'elev-ct-1.png',
 		elmin: '5,505',
 		elmax: '13,264',
 		elgain: '89,354'
@@ -31,7 +31,7 @@ var mapchunks = {
 		lon: '-105.138734',
 		zoom: 11,
 		url: 's1route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-1.png',
 		elmin: '5,505',
 		elmax: '7,516',
 		elgain: '2,338'
@@ -45,7 +45,7 @@ var mapchunks = {
 		lon: '-105.215726',
 		zoom: 11,
 		url: 's2route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-2.png',
 		elmin: '6,148',
 		elmax: '7,858',
 		elgain: '1,981'
@@ -59,7 +59,7 @@ var mapchunks = {
 		lon: '-105.321126',
 		zoom: 11,
 		url: 's3route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-3.png',
 		elmin: '7,385',
 		elmax: '8,307',
 		elgain: '1,268'
@@ -73,7 +73,7 @@ var mapchunks = {
 		lon: '-105.506864',
 		zoom: 11,
 		url: 's4route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-4.png',
 		elmin: '8,294',
 		elmax: '10,978',
 		elgain: '3,123'
@@ -87,7 +87,7 @@ var mapchunks = {
 		lon: '-105.690192',
 		zoom: 11,
 		url: 's5route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-5.png',
 		elmin: '9,534',
 		elmax: '10,528',
 		elgain: '1,792'
@@ -101,7 +101,7 @@ var mapchunks = {
 		lon: '-105.897565',
 		zoom: 11,
 		url: 's6route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-6.png',
 		elmin: '9,196',
 		elmax: '11,873',
 		elgain: '4,495'
@@ -115,7 +115,7 @@ var mapchunks = {
 		lon: '-106.108365',
 		zoom: 11,
 		url: 's7route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-7.png',
 		elmin: '9,229',
 		elmax: '12,503',
 		elgain: '3,611'
@@ -129,7 +129,7 @@ var mapchunks = {
 		lon: '-106.234364',
 		zoom: 11,
 		url: 's8route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-8.png',
 		elmin: '9,337',
 		elmax: '12,251',
 		elgain: '3,909'
@@ -143,7 +143,7 @@ var mapchunks = {
 		lon: '-106.382680',
 		zoom: 11,
 		url: 's9route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-9.png',
 		elmin: '10,079',
 		elmax: '11,729',
 		elgain: '2,306'
@@ -157,7 +157,7 @@ var mapchunks = {
 		lon: '-106.418385',
 		zoom: 11,
 		url: 's10route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-10.png',
 		elmin: '10,108',
 		elmax: '11,325',
 		elgain: '2,310'
@@ -171,7 +171,7 @@ var mapchunks = {
 		lon: '-106.344914',
 		zoom: 11,
 		url: 's11route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-11.png',
 		elmin: '8,947',
 		elmax: '10,679',
 		elgain: '2,212'
@@ -185,7 +185,7 @@ var mapchunks = {
 		lon: '-106.260800',
 		zoom: 11,
 		url: 's12route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-12.png',
 		elmin: '8,911',
 		elmax: '11,854',
 		elgain: '4,274'
@@ -199,7 +199,7 @@ var mapchunks = {
 		lon: '-106.240888',
 		zoom: 11,
 		url: 's13route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-13.png',
 		elmin: '8,205',
 		elmax: '11,926',
 		elgain: '3,762'
@@ -213,7 +213,7 @@ var mapchunks = {
 		lon: '-106.234021',
 		zoom: 11,
 		url: 's14route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-14.png',
 		elmin: '8,415',
 		elmax: '10,207',
 		elgain: '2,963'
@@ -227,7 +227,7 @@ var mapchunks = {
 		lon: '-106.272473',
 		zoom: 11,
 		url: 's15route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-15.png',
 		elmin: '8,842',
 		elmax: '11,932',
 		elgain: '3,360'
@@ -241,7 +241,7 @@ var mapchunks = {
 		lon: '-106.328092',
 		zoom: 11,
 		url: 's16route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-16.png',
 		elmin: '10,344',
 		elmax: '11,834',
 		elgain: '2,446'
@@ -255,7 +255,7 @@ var mapchunks = {
 		lon: '-106.484990',
 		zoom: 11,
 		url: 's17route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-17.png',
 		elmin: '9,734',
 		elmax: '11,798',
 		elgain: '2,122'
@@ -269,7 +269,7 @@ var mapchunks = {
 		lon: '-106.638455',
 		zoom: 11,
 		url: 's18route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-18.png',
 		elmin: '9,341',
 		elmax: '10,292',
 		elgain: '1,237'
@@ -283,7 +283,7 @@ var mapchunks = {
 		lon: '-106.775098',
 		zoom: 11,
 		url: 's19route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-19.png',
 		elmin: '9,537',
 		elmax: '10,449',
 		elgain: '1,987'
@@ -297,7 +297,7 @@ var mapchunks = {
 		lon: '-106.894231',
 		zoom: 11,
 		url: 's20route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-20.png',
 		elmin: '10,371',
 		elmax: '12,621',
 		elgain: '2,793'
@@ -311,7 +311,7 @@ var mapchunks = {
 		lon: '-107.060056',
 		zoom: 11,
 		url: 's21route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-21.png',
 		elmin: '10,925',
 		elmax: '12,917',
 		elgain: '2,778'
@@ -325,7 +325,7 @@ var mapchunks = {
 		lon: '-107.267766',
 		zoom: 11,
 		url: 's22route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-22.png',
 		elmin: '10,938',
 		elmax: '13,264',
 		elgain: '3,650'
@@ -339,7 +339,7 @@ var mapchunks = {
 		lon: '-107.459340',
 		zoom: 11,
 		url: 's23route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-23.png',
 		elmin: '11,903',
 		elmax: '12,976',
 		elgain: '4,335'
@@ -353,7 +353,7 @@ var mapchunks = {
 		lon: '-107.614865',
 		zoom: 11,
 		url: 's24route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-24.png',
 		elmin: '8,930',
 		elmax: '12,707',
 		elgain: '3,880'
@@ -367,7 +367,7 @@ var mapchunks = {
 		lon: '-107.808843',
 		zoom: 11,
 		url: 's25route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-25.png',
 		elmin: '10,869',
 		elmax: '12,470',
 		elgain: '3,167'
@@ -381,7 +381,7 @@ var mapchunks = {
 		lon: '-107.954926',
 		zoom: 11,
 		url: 's26route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-26.png',
 		elmin: '10,338',
 		elmax: '11,978',
 		elgain: '1,126'
@@ -395,7 +395,7 @@ var mapchunks = {
 		lon: '-108.001103',
 		zoom: 11,
 		url: 's27route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-27.png',
 		elmin: '10,469',
 		elmax: '12,247',
 		elgain: '2,911'
@@ -409,7 +409,7 @@ var mapchunks = {
 		lon: '-107.957501',
 		zoom: 11,
 		url: 's28route.kmz',
-		elimg: '',
+		elimg: 'elev-ct-28.png',
 		elmin: '7,018',
 		elmax: '11,791',
 		elgain: '1,425'
@@ -423,7 +423,7 @@ var mapchunks = {
 		lon: '-106.382680',
 		zoom: 11,
 		url: 'cw1route.kmz',
-		elimg: '',
+		elimg: 'elev-cw-1.png',
 		elmin: '9,232',
 		elmax: '12,523',
 		elgain: '3,606'
@@ -437,7 +437,7 @@ var mapchunks = {
 		lon: '-106.452374',
 		zoom: 11,
 		url: 'cw2route.kmz',
-		elimg: '',
+		elimg: 'elev-cw-2.png',
 		elmin: '9,856',
 		elmax: '12,605',
 		elgain: '4,912'
@@ -451,7 +451,7 @@ var mapchunks = {
 		lon: '-106.436925',
 		zoom: 11,
 		url: 'cw3route.kmz',
-		elimg: '',
+		elimg: 'elev-cw-3.png',
 		elmin: '10,410',
 		elmax: '12,123',
 		elgain: '2,218'
@@ -465,7 +465,7 @@ var mapchunks = {
 		lon: '-106.413235',
 		zoom: 11,
 		url: 'cw4route.kmz',
-		elimg: '',
+		elimg: 'elev-cw-4.png',
 		elmin: '10,860',
 		elmax: '12,313',
 		elgain: '2,853'
@@ -479,7 +479,7 @@ var mapchunks = {
 		lon: '-106.343197',
 		zoom: 11,
 		url: 'cw5route.kmz',
-		elimg: '',
+		elimg: 'elev-cw-5.png',
 		elmin: '10,410',
 		elmax: '12,123',
 		elgain: '4,889'
