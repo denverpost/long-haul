@@ -17,7 +17,7 @@ var mapchunks = {
 		lon: '-106.358304',
 		zoom: 8,
 		url: 'ct-all-routes.kml',
-		elimg: 'elev-ct-1.png',
+		elimg: 'elevation-all.png',
 		elmin: '5,505',
 		elmax: '13,264',
 		elgain: '89,354'
