@@ -12,12 +12,15 @@ var mapchunks = {
 	0: {
 		name: 'The Colorado Trail',
 		desc: 'All 486 miles of The Colorado Trail, as well as the 80-mile Collegiate West trail. Navigate through maps of each segment using the arrows above or the links below. The five Collegiate West trail segments are after the 28 segments of the main trail.',
-		notes: 'Dean presents impressions and concerns about each segment of the trail. NOTE: Dean is hiking the trail from south to north, and his notes and resupply plans reflect that. You can go through the trail in reverse with Dean by starting with the left arrow.',
+		notes: 'Dean presents impressions and concerns about each segment of the trail. NOTE: Dean is hiking the trail from south to north, and his notes and resupply plans reflect that. You can go through the trail in reverse with Dean by starting with the left arrow. Elevation gain is calculated based on traveling from Denver to Durango, however.',
 		lat: '38.452261',
 		lon: '-106.358304',
 		zoom: 8,
 		url: 'ct-all-routes.kml',
-		el: ''
+		elimg: 'elev-test.png',
+		elmin: '5,505',
+		elmax: '13,264',
+		elgain: '89,354'
 	},
 	1: {
 		name: 'CT Segment 1',
@@ -28,7 +31,10 @@ var mapchunks = {
 		lon: '-105.138734',
 		zoom: 11,
 		url: 's1route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '5,505',
+		elmax: '7,516',
+		elgain: '2,338'
 	},
 	2: {
 		name: 'CT Segment 2',
@@ -39,7 +45,10 @@ var mapchunks = {
 		lon: '-105.215726',
 		zoom: 11,
 		url: 's2route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '6,148',
+		elmax: '7,858',
+		elgain: '1,981'
 	},
 	3: {
 		name: 'CT Segment 3',
@@ -50,7 +59,10 @@ var mapchunks = {
 		lon: '-105.321126',
 		zoom: 11,
 		url: 's3route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '7,385',
+		elmax: '8,307',
+		elgain: '1,268'
 	},
 	4: {
 		name: 'CT Segment 4',
@@ -61,7 +73,10 @@ var mapchunks = {
 		lon: '-105.506864',
 		zoom: 11,
 		url: 's4route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,294',
+		elmax: '10,978',
+		elgain: '3,123'
 	},
 	5: {
 		name: 'CT Segment 5',
@@ -72,7 +87,10 @@ var mapchunks = {
 		lon: '-105.690192',
 		zoom: 11,
 		url: 's5route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,534',
+		elmax: '10,528',
+		elgain: '1,792'
 	},
 	6: {
 		name: 'CT Segment 6',
@@ -83,7 +101,10 @@ var mapchunks = {
 		lon: '-105.897565',
 		zoom: 11,
 		url: 's6route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,196',
+		elmax: '11,873',
+		elgain: '4,495'
 	},
 	7: {
 		name: 'CT Segment 7',
@@ -94,7 +115,10 @@ var mapchunks = {
 		lon: '-106.108365',
 		zoom: 11,
 		url: 's7route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,229',
+		elmax: '12,503',
+		elgain: '3,611'
 	},
 	8: {
 		name: 'CT Segment 8',
@@ -105,7 +129,10 @@ var mapchunks = {
 		lon: '-106.234364',
 		zoom: 11,
 		url: 's8route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,337',
+		elmax: '12,251',
+		elgain: '3,909'
 	},
 	9: {
 		name: 'CT Segment 9',
@@ -116,7 +143,10 @@ var mapchunks = {
 		lon: '-106.382680',
 		zoom: 11,
 		url: 's9route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,079',
+		elmax: '11,729',
+		elgain: '2,306'
 	},
 	10: {
 		name: 'CT Segment 10',
@@ -127,7 +157,10 @@ var mapchunks = {
 		lon: '-106.418385',
 		zoom: 11,
 		url: 's10route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,108',
+		elmax: '11,325',
+		elgain: '2,310'
 	},
 	11: {
 		name: 'CT Segment 11',
@@ -138,7 +171,10 @@ var mapchunks = {
 		lon: '-106.344914',
 		zoom: 11,
 		url: 's11route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,947',
+		elmax: '10,679',
+		elgain: '2,212'
 	},
 	12: {
 		name: 'CT Segment 12',
@@ -149,7 +185,10 @@ var mapchunks = {
 		lon: '-106.260800',
 		zoom: 11,
 		url: 's12route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,911',
+		elmax: '11,854',
+		elgain: '4,274'
 	},
 	13: {
 		name: 'CT Segment 13',
@@ -160,7 +199,10 @@ var mapchunks = {
 		lon: '-106.240888',
 		zoom: 11,
 		url: 's13route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,205',
+		elmax: '11,926',
+		elgain: '3,762'
 	},
 	14: {
 		name: 'CT Segment 14',
@@ -171,7 +213,10 @@ var mapchunks = {
 		lon: '-106.234021',
 		zoom: 11,
 		url: 's14route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,415',
+		elmax: '10,207',
+		elgain: '2,963'
 	},
 	15: {
 		name: 'CT Segment 15',
@@ -182,7 +227,10 @@ var mapchunks = {
 		lon: '-106.272473',
 		zoom: 11,
 		url: 's15route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,842',
+		elmax: '11,932',
+		elgain: '3,360'
 	},
 	16: {
 		name: 'CT Segment 16',
@@ -193,7 +241,10 @@ var mapchunks = {
 		lon: '-106.328092',
 		zoom: 11,
 		url: 's16route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,344',
+		elmax: '11,834',
+		elgain: '2,446'
 	},
 	17: {
 		name: 'CT Segment 17',
@@ -204,7 +255,10 @@ var mapchunks = {
 		lon: '-106.484990',
 		zoom: 11,
 		url: 's17route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,734',
+		elmax: '11,798',
+		elgain: '2,122'
 	},
 	18: {
 		name: 'CT Segment 18',
@@ -215,7 +269,10 @@ var mapchunks = {
 		lon: '-106.638455',
 		zoom: 11,
 		url: 's18route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,341',
+		elmax: '10,292',
+		elgain: '1,237'
 	},
 	19: {
 		name: 'CT Segment 19',
@@ -226,7 +283,10 @@ var mapchunks = {
 		lon: '-106.775098',
 		zoom: 11,
 		url: 's19route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,537',
+		elmax: '10,449',
+		elgain: '1,987'
 	},
 	20: {
 		name: 'CT Segment 20',
@@ -237,7 +297,10 @@ var mapchunks = {
 		lon: '-106.894231',
 		zoom: 11,
 		url: 's20route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,371',
+		elmax: '12,621',
+		elgain: '2,793'
 	},
 	21: {
 		name: 'CT Segment 21',
@@ -248,7 +311,10 @@ var mapchunks = {
 		lon: '-107.060056',
 		zoom: 11,
 		url: 's21route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,925',
+		elmax: '12,917',
+		elgain: '2,778'
 	},
 	22: {
 		name: 'CT Segment 22',
@@ -259,7 +325,10 @@ var mapchunks = {
 		lon: '-107.267766',
 		zoom: 11,
 		url: 's22route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,938',
+		elmax: '13,264',
+		elgain: '3,650'
 	},
 	23: {
 		name: 'CT Segment 23',
@@ -270,7 +339,10 @@ var mapchunks = {
 		lon: '-107.459340',
 		zoom: 11,
 		url: 's23route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '11,903',
+		elmax: '12,976',
+		elgain: '4,335'
 	},
 	24: {
 		name: 'CT Segment 24',
@@ -281,7 +353,10 @@ var mapchunks = {
 		lon: '-107.614865',
 		zoom: 11,
 		url: 's24route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '8,930',
+		elmax: '12,707',
+		elgain: '3,880'
 	},
 	25: {
 		name: 'CT Segment 25',
@@ -292,7 +367,10 @@ var mapchunks = {
 		lon: '-107.808843',
 		zoom: 11,
 		url: 's25route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,869',
+		elmax: '12,470',
+		elgain: '3,167'
 	},
 	26: {
 		name: 'CT Segment 26',
@@ -303,7 +381,10 @@ var mapchunks = {
 		lon: '-107.954926',
 		zoom: 11,
 		url: 's26route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,338',
+		elmax: '11,978',
+		elgain: '1,126'
 	},
 	27: {
 		name: 'CT Segment 27',
@@ -314,7 +395,10 @@ var mapchunks = {
 		lon: '-108.001103',
 		zoom: 11,
 		url: 's27route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,469',
+		elmax: '12,247',
+		elgain: '2,911'
 	},
 	28: {
 		name: 'CT Segment 28',
@@ -325,10 +409,13 @@ var mapchunks = {
 		lon: '-107.957501',
 		zoom: 11,
 		url: 's28route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '7,018',
+		elmax: '11,791',
+		elgain: '1,425'
 	},
 	29: {
-		name: 'Collegiate West Segment 1',
+		name: 'CW Segment 1',
 		desc: 'Collegiate West Segment 1',
 		notes: '',
 		descex: 7,
@@ -336,10 +423,13 @@ var mapchunks = {
 		lon: '-106.382680',
 		zoom: 11,
 		url: 'cw1route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,232',
+		elmax: '12,523',
+		elgain: '3,606'
 	},
 	30: {
-		name: 'Collegiate West Segment 2',
+		name: 'CW Segment 2',
 		desc: 'Collegiate West Segment 2',
 		notes: '',
 		descex: 7,
@@ -347,10 +437,13 @@ var mapchunks = {
 		lon: '-106.452374',
 		zoom: 11,
 		url: 'cw2route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '9,856',
+		elmax: '12,605',
+		elgain: '4,912'
 	},
 	31: {
-		name: 'Collegiate West Segment 3',
+		name: 'CW Segment 3',
 		desc: 'Collegiate West Segment 3',
 		notes: '',
 		descex: 7,
@@ -358,10 +451,13 @@ var mapchunks = {
 		lon: '-106.436925',
 		zoom: 11,
 		url: 'cw3route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,410',
+		elmax: '12,123',
+		elgain: '2,218'
 	},
 	32: {
-		name: 'Collegiate West Segment 4',
+		name: 'CW Segment 4',
 		desc: 'Collegiate West Segment 4',
 		notes: '',
 		descex: 7,
@@ -369,10 +465,13 @@ var mapchunks = {
 		lon: '-106.413235',
 		zoom: 11,
 		url: 'cw4route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,860',
+		elmax: '12,313',
+		elgain: '2,853'
 	},
 	33: {
-		name: 'Collegiate West Segment 5',
+		name: 'CW Segment 5',
 		desc: 'Collegiate West Segment 5',
 		notes: '',
 		descex: 7,
@@ -380,7 +479,10 @@ var mapchunks = {
 		lon: '-106.343197',
 		zoom: 11,
 		url: 'cw5route.kmz',
-		el: ''
+		elimg: '',
+		elmin: '10,410',
+		elmax: '12,123',
+		elgain: '4,889'
 	}
 }
 
@@ -429,10 +531,15 @@ function setMapLinks(seg) {
 	} else {
 		$('#resupH').addClass('hide');
 	}
+	$('#elevpng').attr('src','./kml/' + segment['elimg']);
+	$('#elmin').html('<strong>Min:</strong> ' + segment['elmin'] + ' feet');
+	$('#elmax').html('<strong>Max:</strong> ' + segment['elmax'] + ' feet');
+	$('#elgain').html('<strong>Gain:</strong> ' + segment['elgain'] + ' feet');
 }
 
 function mapCreate(seg,alone) {
-	alone = typeof alone !== 'undefined' ? false : true;
+	console.log(alone);
+	alone = typeof alone !== 'undefined' ? true : false;
 	seg = typeof seg !== 'undefined' ? seg : 0;
 	segment = typeof seg !== 'undefined' ? mapchunks[seg] : mapchunks[0];
 	
@@ -457,7 +564,9 @@ function mapCreate(seg,alone) {
 	map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 /* layer toggles */
+console.log(alone);
 	if (!alone) {
+		console.log('NOT ALONE!');
 		layers.forEach(removeLayer);
 
 		if (baseSet) {

@@ -222,7 +222,7 @@
     
 <!-- LEDE -->
 <div class="row">
-	<div class="large-9 large-centered medium-10 medium-centered small-12 columns">
+	<div class="large-10 large-centered medium-11 medium-centered small-12 columns">
 		<p class="published">Published July 27, 2015</p>
 
 		<div class="row" id="mapwrap">
@@ -230,6 +230,19 @@
 				<div class="vid-embed-wrap">
 					<div class="map-height-space"></div>
 					<div id="map" class="vid-embed"></div>
+				</div>
+			</div>
+			<div class="large-12 large-centered medium-12 medium-centered small-12 columns">
+				<div class="row" id="elevation">
+					<div class="large-9 medium-9 small-12 columns">
+						<img src="./kml/elev-test.png" id="elevpng" />
+					</div>
+					<div class="large-3 medium-3 small-12 columns">
+						<p><strong>Elevation profile</strong></p>
+						<p id="elmin"></p>
+						<p id="elmax"></p>
+						<p id="elgain"></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -240,12 +253,12 @@
 			<h3 id="segTitle" class="mapsub">Map: The Colorado Trail</h3>
 		</div>
 
-		<p id="segDesc"></p>
-
-		<p id="Dnotes"></p>
-
-		<h4 id="resupH" class="hide mapsub">Resupply plans</h4>
-		<p id="resupply"></p>
+		<div id="map-text">
+			<p id="segDesc"></p>
+			<p id="Dnotes"></p>
+			<h4 id="resupH" class="hide mapsub">Resupply plans</h4>
+			<p id="resupply"></p>
+		</div>
 
 		<div id="segPages" class="pagination-centered">
 			<ul class="pagination">

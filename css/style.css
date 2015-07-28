@@ -1502,9 +1502,6 @@ div.gear h6 span {
       letter-spacing:.02em;
 }
 
-
-
-
 /* ----------------------------- iframes ----------------------------- */
 
 iframe {
@@ -1517,7 +1514,28 @@ iframe {
 #mapwrap {
     margin-bottom:1em;
 }
-#trailmaps p {
+#elevation {
+    margin-top:1em;
+}
+#elevation, #elevation .columns {
+    height:100px;
+}
+#elevation img#elevpng {
+    height:100%;
+    width:100%;
+    margin:0 auto;
+}
+#elevation p {
+    font-size:1.15em;
+    line-height: 1.3;
+    margin-bottom:.05em;
+}
+#elevation p:first-child {
+    text-align:center;
+    margin-bottom:.15em;
+    font-size:1.25em;
+}
+#map-text p {
     font-size:1.3em;
     line-height:1.5;
 }
@@ -1538,7 +1556,7 @@ h3.mapsub {
     text-align:center;
     font-family: 'Neuton', Georgia, Times, serif !important;
     margin:0 auto;
-    font-size:1.75em;
+    font-size:1.85em;
     padding:0;
     border-bottom: none;
     width:100%;
@@ -1581,8 +1599,7 @@ ul.pagination li {
     outline:none;
 }
 
-
-
+/* ----------------------------- images ----------------------------- */
 
 .centergallery {
     width:100%;
