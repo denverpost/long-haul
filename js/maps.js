@@ -132,7 +132,7 @@ var mapchunks = {
 	11: {
 		name: 'CT Segment 11',
 		desc: 'Half Moon Creek to Clear Creek Road &mdash; 21.5 miles',
-		notes: 'A mostly deep woods timber walk through the Mount Massive Wilderness that passes near the tiny town of Twin Lakes, always worth a visit. Here I have to make a decision about the Collegiate West Trail. If I decide to go south on the Collegiate West I&rsquo;ll walk west on Highway 82 and cross Lake Creek, above the inlet to Twin Lakes, on the bridge then head up Little Willis Gulch to Hope Pass. The Leadville 100 foot race climbs Hope Pass twice during the annual 100-mile-long ultra marathon. Going south will take me 80 miles back to Highway 50. The Collegiate East &mdash; the old tried and true Colorado Trail &mdash; skirts around Twin Lakes and after going through a hot stretch of boondocky, jeep-road-criss-crossed flatlands, climbs a ridge and decends to Clear Creek Road.',
+		notes: 'A mostly deep woods timber walk through the Mount Massive Wilderness that passes near the tiny town of Twin Lakes, always worth a visit. Here I have to make a decision about the Collegiate West Trail. If I decide to go south on the Collegiate West I&rsquo;ll walk west on Highway 82 and cross Lake Creek, above the inlet to Twin Lakes, on the bridge then head up Little Willis Gulch to Hope Pass. The Leadville 100 foot race climbs Hope Pass twice during the annual 100-mile-long ultra marathon. Going south will take me 80 miles back to Highway 50. The Collegiate East &mdash; the old tried and true Colorado Trail &mdash; skirts around Twin Lakes and after going through a hot stretch of boondocky, jeep-road-criss-crossed flatlands, climbs a ridge and decends to Clear Creek Road. NOTE: On this segment there is an opportunity to take The Collegiate West trail, and you can <a href="javascript:mapSeg(29);">skip to those segments if you like</a>.',
 		descex: 3,
 		lat: '39.085321',
 		lon: '-106.344914',
@@ -464,7 +464,7 @@ function mapCreate(seg,alone) {
 			baseLayer.setMap(null);
 			baseSet = false;
 		}
-		
+
 		setMapLinks(seg);
 	}
 
