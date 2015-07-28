@@ -387,6 +387,7 @@ var mapchunks = {
 var map;
 var kmlBase = 'http://extras.denverpost.com/long-haul/kml/';
 var layers = new Array;
+var baseSet = false;
 
 function removeLayer(element,index,array) {
 	layers[index].setMap(null);
@@ -449,6 +450,11 @@ function mapCreate(seg) {
 /* layer toggles */
 	layers.forEach(removeLayer);
 
+	if (baseSet) {
+		baseLayer.setMap(null);
+		baseSet = false;
+	}
+
 	newLayer = new google.maps.KmlLayer({
 		url: kmlBase + segment['url'],
 		preserveViewport: true,
@@ -464,6 +470,17 @@ function mapCreate(seg) {
 }
 
 function mapSeg(seg) {
+
+	if (!baseSet) {
+		baseLayer = new google.maps.KmlLayer({
+			url: kmlBase + 'ct-all-routes-light.kml',
+			preserveViewport: true,
+			suppressInfoWindows: true,
+			clickable: false
+		});
+		baseLayer.setMap(map);
+		baseSet = true;
+	}
 
 	seg = typeof seg !== 'undefined' ? seg : 0;
 	segment = typeof seg !== 'undefined' ? mapchunks[seg] : mapchunks[0];

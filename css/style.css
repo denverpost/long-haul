@@ -167,7 +167,7 @@ div#name1 {
     top:.45em;
     left:1em;
     position:absolute;
-    width:80%;
+    width:18em;
     padding:.1em;
     opacity:1;
     z-index:2;
@@ -2034,9 +2034,11 @@ div#footer-bar ul.social li img {
 
     div#name1{
     	opacity:0;
+        width:16em;
     }
     div#name2{
     	opacity:1;
+        width:16em;
     }
     .navigation-bottom{
     	width:100%;
@@ -2066,10 +2068,6 @@ div#footer-bar ul.social li img {
    .opener {
         background-position: 47% 90%;
     }
-    div#name2 {
-        width:16em;
-    }
-
     .title h2,
     .title h4 {
         font-size:1.25em;
