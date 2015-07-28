@@ -4,7 +4,7 @@
 	<name>s24route.kml</name>
 	<Style id="RoutePath">
 		<LineStyle>
-			<color>cc14dcf3</color>
+			<color>cc0000ff</color>
 			<width>4</width>
 		</LineStyle>
 	</Style>

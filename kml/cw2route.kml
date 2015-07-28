@@ -4,7 +4,7 @@
 	<name>cw2route.kml</name>
 	<Style id="RoutePath">
 		<LineStyle>
-			<color>cc0099ff</color>
+			<color>ccff0000</color>
 			<width>4</width>
 		</LineStyle>
 	</Style>
