@@ -2066,7 +2066,9 @@ div#footer-bar ul.social li img {
    .opener {
         background-position: 47% 90%;
     }
-    
+    div#name2 {
+        width:16em;
+    }
 
     .title h2,
     .title h4 {

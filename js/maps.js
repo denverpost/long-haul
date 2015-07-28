@@ -11,7 +11,8 @@ var extendedDesc = {
 var mapchunks = {
 	0: {
 		name: 'The Colorado Trail',
-		desc: 'All 486 miles of The Colorado Trail, as well as the 80-mile Collegiate West trail.',
+		desc: 'All 486 miles of The Colorado Trail, as well as the 80-mile Collegiate West trail. Navigate through maps of each segment using the arrows above or the links below. The five Collegiate West trail segments are after the 28 segments of the main trail.',
+		notes: 'Dean presents impressions and concerns about each segment of the trail. NOTE: Dean is hiking the trail from south to north, and his notes and resupply plans reflect that. You can go through the trail in reverse with Dean by starting with the left arrow.',
 		lat: '38.452261',
 		lon: '-106.358304',
 		zoom: 8,
@@ -380,24 +381,6 @@ var mapchunks = {
 		zoom: 11,
 		url: 'cw5route.kmz',
 		el: ''
-	},
-	34: {
-		name: 'The Colorado Trail Main Route',
-		desc: 'Stretching 486 miles from Denver to Durango, The Colorado Trail was dedicated in 1988. The average elevation is over 10,000 feet and goes as high as 13,271 feet.',
-		lat: '38.452261',
-		lon: '-106.358304',
-		zoom: 8,
-		url: 'ct-full-route.kmz',
-		el: ''
-	},
-	35: {
-		name: 'The Collegiate West Route',
-		desc: 'A high supplemental route along the Continental Divide, The Collegiate West trail is 80 miles long and was completed in 2014.',
-		lat: '38.774177',
-		lon: '-106.347318',
-		zoom: 9,
-		url: 'ct-west-route.kmz',
-		el: ''
 	}
 }
 
@@ -416,8 +399,8 @@ function setMapLinks(seg) {
 
 	var next = seg + 1;
 	var prev = seg - 1;
-	var next = (next == 35) ? 0 : next;
-	var prev = (prev == -1) ? 35 : prev;
+	var next = (next == 33) ? 0 : next;
+	var prev = (prev == -1) ? 33 : prev;
 	var pageCurr = 'li#seg' + seg;
 
 	$('a#mapNext').attr('href','javascript:mapSeg(' + next + ')');
