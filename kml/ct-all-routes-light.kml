@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <Folder>
+    <name>Colorado Trail</name>
+    <visibility>0</visibility>
+    <open>0</open>
+    <description></description>
+    <NetworkLink>
+      <name></name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <description></description>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>http://extras.denverpost.com/long-haul/kml/ct-full-route-light.kmz</href>
+      </Link>
+    </NetworkLink>
+    <NetworkLink>
+      <name></name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <description></description>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>http://extras.denverpost.com/long-haul/kml/ct-west-route-light.kmz</href>
+      </Link>
+    </NetworkLink>
+  </Folder>
+</Document>
+</kml>

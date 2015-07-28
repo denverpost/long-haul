@@ -466,7 +466,12 @@ function mapCreate(seg) {
 /* layer toggles */
 	layers.forEach(removeLayer);
 
-	newLayer = new google.maps.KmlLayer({url: kmlBase + segment['url'], preserveViewport: true});
+	newLayer = new google.maps.KmlLayer({
+		url: kmlBase + segment['url'],
+		preserveViewport: true,
+		suppressInfoWindows: true,
+		clickable: false
+	});
 	layers[seg] = newLayer;
 	layers[seg].setMap(map);
 
@@ -482,7 +487,12 @@ function mapSeg(seg) {
 
 	layers.forEach(removeLayer);
 
-	newLayer = new google.maps.KmlLayer({url: kmlBase + segment['url'], preserveViewport: true});
+	newLayer = new google.maps.KmlLayer({
+		url: kmlBase + segment['url'],
+		preserveViewport: true,
+		suppressInfoWindows: true,
+		clickable: false
+	});
 	layers[seg] = newLayer;
 	console.log(seg);
 	console.log(layers[seg]);
