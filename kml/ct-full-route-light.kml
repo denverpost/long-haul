@@ -4,7 +4,7 @@
 	<name>totalCTroute.kml</name>
 	<Style id="RoutePath">
 		<LineStyle>
-			<color>660000ff</color>
+			<color>500000ff</color>
 			<width>4</width>
 		</LineStyle>
 	</Style>

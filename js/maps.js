@@ -505,8 +505,6 @@ function mapSeg(seg) {
 		clickable: false
 	});
 	layers[seg] = newLayer;
-	console.log(seg);
-	console.log(layers[seg]);
 	layers[seg].setMap(map);
 
 	var newLatLng = new google.maps.LatLng(segment['lat'],segment['lon']);
