@@ -1540,6 +1540,7 @@ iframe {
     line-height:1.5;
 }
 #segDesc {
+    padding:1em 2em;
     font-size:1.5em;
     font-weight:bold;
     text-align:center;
