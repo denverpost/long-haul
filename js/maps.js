@@ -241,7 +241,7 @@ var mapchunks = {
 	21: {
 		name: 'CT Segment 21',
 		desc: 'San Luis Pass to Spring Creek Pass &mdash; 14.9 miles',
-		notes: 'The Colorado Trail through this section passes across Snow Mesa, a vast, flat exspanse entirely above treeline. Lots of exposure on this high passage.',
+		notes: 'The Colorado Trail through this section passes across Snow Mesa, a vast, flat expanse entirely above treeline. Lots of exposure on this high passage.',
 		descex: 4,
 		lat: '37.965059',
 		lon: '-107.060056',
