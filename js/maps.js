@@ -15,7 +15,7 @@ var mapchunks = {
 	1: {
 		name: 'CT Segment 1',
 		desc: 'Kassler to South Platte Canyon &mdash; 16.8 miles',
-		notes: 'This is The Colorado Trail&rsquo;s northern trailhead: Waterton Canyon road, hot, mostly flat and six miles long, crowded with walkers and bikers&hellip;but also in a very pretty canyon and beside the river, with occasional sightings of big horn sheep. The road turns into a trail that eventually reaches the North Fork of the South Platte River.',
+		notes: 'The Colorado Trail&rsquo;s northern trailhead will be crowded with hikers and cyclists, but the crowds fade (and big horn sheep might appear) as the trail follows the river through the canyon. ',
 		lat: '39.449150',
 		lon: '-105.138734',
 		zoom: 11,
@@ -27,8 +27,8 @@ var mapchunks = {
 	},
 	2: {
 		name: 'CT Segment 2',
-		desc: 'South Platte Canyon to Colorado Trailhead FS-550 &mdash; 11.5 miles',
-		notes: 'The first part of this trail passes through the old Hayman fire burn so there&rsquo;s not much cover, the sun is relentless and there&rsquo;s no water. But the burn has a stark stripped down beauty and there is timber cover eventually as you reach Forest Service Road 550 and a large parking area.',
+		desc: 'South Platte Canyon to Colorado Trailhead FS 550 &mdash; 11.5 miles',
+		notes: 'Some of this segment passes through the old Hayman Fire burn, so there&rsquo;s not much shade, nor water. The stark beauty of the burn grows into timber near Forest Service Road 550.',
 		lat: '39.376788',
 		lon: '-105.215726',
 		zoom: 11,
@@ -40,8 +40,8 @@ var mapchunks = {
 	},
 	3: {
 		name: 'CT Segment 3',
-		desc: 'Colorado Trailhead FS-550 to FS-560 (Wellington Lake Road) &mdash; 12.2 miles',
-		notes: 'A rolling trail through forests of Ponderosa pine and small aspen groves without much elevation gain or loss. If they&rsquo;re running, a few streams for water. Popular with mountain bikers and trail runners.',
+		desc: 'Colorado Trailhead FS 550 to FS 560 (Wellington Lake Road) &mdash; 12.2 miles',
+		notes: 'Here the trail rolls through ponderosa pine and aspen groves. This segment is popular with mountain bikers and trail runners.',
 		lat: '39.336438',
 		lon: '-105.321126',
 		zoom: 11,
@@ -53,8 +53,8 @@ var mapchunks = {
 	},
 	4: {
 		name: 'CT Segment 4',
-		desc: 'FS-560 (Wellington Lake Road) to Long Gulch &mdash; 16.6 miles',
-		notes: 'A bit of climb through the trees. Although I&rsquo;ve been all over the trails around this section I have only walked parts of The Colorado Trail here, mainly using it to connect with other routes.',
+		desc: 'FS 560 (Wellington Lake Road) to Long Gulch &mdash; 16.6 miles',
+		notes: 'This quiet section takes a moderate climb through forest. Part of the segment is in the Lost Creek Wilderness.',
 		lat: '39.337500',
 		lon: '-105.506864',
 		zoom: 11,
@@ -67,7 +67,7 @@ var mapchunks = {
 	5: {
 		name: 'CT Segment 5',
 		desc: 'Long Gulch to Kenosha Pass &mdash; 15.1 miles',
-		notes: 'On this stretch I&rsquo;m planning on taking a detour, leaving the trail and and climbing up onto the Platte Mountains and visiting North and South Twin Cone Peaks and Peak X. I tried unsuccessfully because of rotten snow, to climb Peak X three times this past winter so this is a perfect opportunity. Kenosha Pass is a low saddle over which highway 285 passes before dropping into South Park. Used by native americans and herds of bison, elk to cross the mountains long before the whiteman came with his steam engines, roads and cars.',
+		notes: 'A long meadow and a low saddle &mdash; Kenosha Pass &mdash; dominate this segment of the hike.',
 		lat: '39.390322',
 		lon: '-105.690192',
 		zoom: 11,
@@ -80,7 +80,7 @@ var mapchunks = {
 	6: {
 		name: 'CT Segment 6',
 		desc: 'Kenosha Pass to Goldhill Trailhead &mdash; 32.9 miles',
-		notes: 'Kenosha pass is a low pass along highway 285 between the towns of Bailey and Jefferson. The trail alternates between huge aspen groves and forests of pine with some long open stretches that offer a view of South Park and mountains all around. One of the premier views in the West. Leaving Kenosha the trail climbs up Georgia Pass, the first time it reaches tree line. Leaving the summit of Georgia Pass beneath the towering pyramid of Mt. Guyot the trail drops down, a long ways down, to Breckinridge. I mountain biked this stretch in a miserable rainstorm and frankly don&rsquo;t remember much. Except for the climb up Gold Hill at the end.',
+		notes: 'Between the stretches of aspen grove and forest, you&rsquo;ll catch open views into South Park and some of the nearby peaks. The pyramid of Mount Guyot towers over Georgia Pass on this segment.',
 		lat: '39.479417',
 		lon: '-105.897565',
 		zoom: 11,
@@ -93,7 +93,7 @@ var mapchunks = {
 	7: {
 		name: 'CT Segment 7',
 		desc: 'Goldhill Trailhead to Copper Mountain &mdash; 12.8 miles',
-		notes: 'The trail starts in Breckenridge and climbs up over the Ten Mile Range on its way to Copper Mountain. I&rsquo;ve not been on this part of the trail. It&rsquo;s high and exposed.',
+		notes: 'This high, exposed section of trail crosses the Tenmile Range before dropping down to Copper Mountain.',
 		lat: '39.523127',
 		lon: '-106.108365',
 		zoom: 11,
@@ -183,7 +183,7 @@ var mapchunks = {
 	},
 	14: {
 		name: 'CT Segment 14',
-		desc: 'Chalk Creek Trailhead to US-50 &mdash; 20.4 miles',
+		desc: 'Chalk Creek Trailhead to U.S. 50 &mdash; 20.4 miles',
 		notes: 'This section of trail just rolls dipping down and up, passing in and out of forests, crossing numerous streams, a nice passage.',
 		lat: '38.631103',
 		lon: '-106.234021',
@@ -196,7 +196,7 @@ var mapchunks = {
 	},
 	15: {
 		name: 'CT Segment 15',
-		desc: 'US-50 to Marshall Pass &mdash; 14.3 miles',
+		desc: 'U.S. 50 to Marshall Pass &mdash; 14.3 miles',
 		notes: 'Spectacular views of the Sawatch Mountains. A nice high passage along a high alpine ridge and home to the Crest Trail, one of the most famous mountain biking trails in Colorado. From Spring Creek Pass to Highway 50 is the longest part of the trail without resupply.',
 		lat: '38.476992',
 		lon: '-106.272473',
@@ -222,7 +222,7 @@ var mapchunks = {
 	},
 	17: {
 		name: 'CT Segment 17',
-		desc: 'Sargents Mesa to Colorado Hwy-114 &mdash; 20.4 miles',
+		desc: 'Sargents Mesa to Colorado 114 &mdash; 20.4 miles',
 		notes: 'Ditto.',
 		lat: '38.278635',
 		lon: '-106.484990',
@@ -235,7 +235,7 @@ var mapchunks = {
 	},
 	18: {
 		name: 'CT Segment 18',
-		desc: 'Colorado Hwy 114 to Saguache Park Road &mdash; 13.8 miles',
+		desc: 'Colorado 114 to Saguache Park Road &mdash; 13.8 miles',
 		notes: 'And ditto again.',
 		lat: '38.181411',
 		lon: '-106.638455',
@@ -300,7 +300,7 @@ var mapchunks = {
 	},
 	23: {
 		name: 'CT Segment 23',
-		desc: 'Carson Saddle to Rio Grand Reservoir Road &mdash; 15.9 miles',
+		desc: 'Carson Saddle to Rio Grande Reservoir Road &mdash; 15.9 miles',
 		notes: 'A crossing of the Rio Grande River is involved here.',
 		lat: '37.834208',
 		lon: '-107.459340',
@@ -313,7 +313,7 @@ var mapchunks = {
 	},
 	24: {
 		name: 'CT Segment 24',
-		desc: 'CT Segment 24',
+		desc: 'Rio Grande Reservoir Road to Molas Pass &mdash; 20.2 miles',
 		notes: '',
 		lat: '37.750103',
 		lon: '-107.614865',
@@ -326,7 +326,7 @@ var mapchunks = {
 	},
 	25: {
 		name: 'CT Segment 25',
-		desc: 'CT Segment 25',
+		desc: 'Molas Pass to Bolam Pass Road &mdash; 20.9 miles',
 		notes: '',
 		lat: '37.736801',
 		lon: '-107.808843',
@@ -339,7 +339,7 @@ var mapchunks = {
 	},
 	26: {
 		name: 'CT Segment 26',
-		desc: 'CT Segment 26',
+		desc: 'Bolam Pass Road to Hotel Draw Road &mdash; 10.9 miles',
 		notes: '',
 		lat: '37.682207',
 		lon: '-107.954926',
@@ -352,7 +352,7 @@ var mapchunks = {
 	},
 	27: {
 		name: 'CT Segment 27',
-		desc: 'CT Segment 27',
+		desc: 'Hotel Draw Road to Cumberland Basin &mdash; 20.6 miles',
 		notes: '',
 		lat: '37.539694',
 		lon: '-108.001103',
@@ -365,7 +365,7 @@ var mapchunks = {
 	},
 	28: {
 		name: 'CT Segment 28',
-		desc: 'CT Segment 28',
+		desc: 'Kennebec Trailhead to Junction Creek Trailhead &mdash; 21.5 miles',
 		notes: '',
 		lat: '37.388725',
 		lon: '-107.957501',
@@ -378,7 +378,7 @@ var mapchunks = {
 	},
 	29: {
 		name: 'CW Segment 1',
-		desc: 'Collegiate West Segment 1',
+		desc: 'Twin Lakes to Sheep Gulch &mdash; 9.8 miles',
 		notes: '',
 		lat: '39.042936',
 		lon: '-106.382680',
@@ -391,7 +391,7 @@ var mapchunks = {
 	},
 	30: {
 		name: 'CW Segment 2',
-		desc: 'Collegiate West Segment 2',
+		desc: 'Sheep Gulch to Cottonwood Pass Road Trailhead &mdash; 25.2 miles',
 		notes: '',
 		lat: '38.916698',
 		lon: '-106.452374',
@@ -404,7 +404,7 @@ var mapchunks = {
 	},
 	31: {
 		name: 'CW Segment 3',
-		desc: 'Collegiate West Segment 3',
+		desc: 'Cottonwood Pass Road Trailhead to Garden Basin Trailhead &mdash; 10.2 miles',
 		notes: '',
 		lat: '38.793713',
 		lon: '-106.436925',
@@ -417,7 +417,7 @@ var mapchunks = {
 	},
 	32: {
 		name: 'CW Segment 4',
-		desc: 'Collegiate West Segment 4',
+		desc: 'Garden Basin Trailhead to Hancock Trailhead &mdash; 14.2 miles',
 		notes: '',
 		lat: '38.694101',
 		lon: '-106.413235',
@@ -430,7 +430,7 @@ var mapchunks = {
 	},
 	33: {
 		name: 'CW Segment 5',
-		desc: 'Collegiate West Segment 5',
+		desc: 'Hancock Trailhead to Ridge Above South Fooses Creek &mdash; 22.6 miles',
 		notes: '',
 		lat: '38.547107',
 		lon: '-106.343197',
@@ -480,8 +480,7 @@ function setMapLinks(seg) {
 	$(pageCurr).addClass('current');
 	$('#segTitle').html(segment['name']);
 	$('#segDesc').html(segment['desc']);
-	var notes = (typeof segment['notes'] !== 'undefined') ? '<strong>Dean&rsquo;s notes:</strong> ' + segment['notes'] : '';
-	$('#Dnotes').html(notes);
+	$('#Dnotes').html(segment['notes']);
 	$('#elevpng').attr('src','./kml/' + segment['elimg']);
 	$('#elmin').html('<strong>Min:</strong> ' + segment['elmin'] + ' feet');
 	$('#elmax').html('<strong>Max:</strong> ' + segment['elmax'] + ' feet');
