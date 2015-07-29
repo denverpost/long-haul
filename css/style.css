@@ -715,7 +715,8 @@ section.inset33 h5 {
 h5.instagram {
     font-family: 'Cutive', Georgia, Times, serif !important;
     font-size:1.35em;
-    margin-bottom:.15em;
+    line-height:1;
+    margin-bottom:.5em;
     text-align:center;
 }
 section.inset h3.subheading {
