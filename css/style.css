@@ -1178,6 +1178,10 @@ iframe {
     font-weight:bold;
     text-align:center;
 }
+#mapLink {
+    text-align:center;
+    font-size:1.1em;
+}
 #trailmaps ul.pagination li.current a,
 #trailmaps ul.pagination li.current button {
     background:rgba(130,139,107,.9);

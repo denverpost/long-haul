@@ -486,6 +486,8 @@ function setMapLinks(seg) {
 	$('#elmin').html('<strong>Min:</strong> ' + segment['elmin'] + ' feet');
 	$('#elmax').html('<strong>Max:</strong> ' + segment['elmax'] + ' feet');
 	$('#elgain').html('<strong>Gain:</strong> ' + segment['elgain'] + ' feet');
+	var mapLink = '<a href="' + window.location + '#' + seg + '">Link directly to this segment</a>';
+	$('#mapLink').html(mapLink);
 }
 
 function mapCreate(seg,alone) {
