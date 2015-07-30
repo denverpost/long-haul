@@ -480,7 +480,7 @@ function setMapLinks(seg) {
 	$(pageCurr).addClass('current');
 	$('#segTitle').html(segment['name']);
 	$('#segDesc').html(segment['desc']);
-	$('#Dnotes').html(segment['notes']);
+	//$('#Dnotes').html(segment['notes']);
 	$('#elevpng').attr('src','./kml/' + segment['elimg']);
 	$('#elmin').html('<strong>Min:</strong> ' + segment['elmin'] + ' feet');
 	$('#elmax').html('<strong>Max:</strong> ' + segment['elmax'] + ' feet');
