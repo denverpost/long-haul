@@ -106,7 +106,7 @@ var mapchunks = {
 	8: {
 		name: 'CT Segment 8',
 		desc: 'Copper Mountain to Tennessee Pass &mdash; 25.4 miles',
-		notes: 'After leaving the ski area &mdash; you walk under chair lifts here and there &mdash; the trail becomes primo singletrack that I&rsquo;ve biked and hiked many times, and climbs up Searle and Kokomo Passes. Nice forest travel by a stream until reaching treeline and the big open for miles and miles. The trail reaches Highway 24 near Ski Cooper. Leadville is down the road to the southwest. There&rsquo;s a hiker box on the trail near the rest area stocked by the good people of Leadville and the hostel there as well as by other hikers discarding things they don&rsquo;t need. A good place to score somebody else&rsquo;s leftovers.',
+		notes: 'Departing Copper under the chair lifts, the trail climbs primo singletrack to Searle and Kokomo passes. At U.S. 24, near Ski Cooper, there&rsquo;s a hiker box on the trail near the rest area.',
 		lat: '39.431171',
 		lon: '-106.234364',
 		zoom: 11,
@@ -119,7 +119,7 @@ var mapchunks = {
 	9: {
 		name: 'CT Segment 9',
 		desc: 'Tennessee Pass to Hagerman Pass Road &mdash; 13.6 miles',
-		notes: 'As if the trail hasn&rsquo;t been beautiful enough now it enters the Holy Cross Wilderness. A special place. Plentiful water in rushing streams. The beauty comes with a price. A long steady climb up over the top of a ridge and then down to Hagerman Pass Road.',
+		notes: 'In this segment, the trail enters the Holy Cross Wilderness, where there&rsquo;s plentiful water in rushing streams &hellip; and then a long climb over a ridge before the trail drops to Hagerman Pass Road.',
 		lat: '39.319707',
 		lon: '-106.382680',
 		zoom: 11,
@@ -132,7 +132,7 @@ var mapchunks = {
 	10: {
 		name: 'CT Segment 10',
 		desc: 'Hagerman Pass Road to Halfmoon Creek &mdash; 13 miles',
-		notes: 'A beautiful rocky walk along a roaring stream down almost to Turquoise Lake. If you walk out to the road from the Timberline Lake Trailhead, which is where you end up, you can see the lake.',
+		notes: 'Here the trail is a beautiful, rocky walk along a roaring stream that heads down almost to Turquoise Lake. You&rsquo;ll have to walk out to the road from the Timberline Lake trailhead to see it, though.',
 		lat: '39.213652',
 		lon: '-106.418385',
 		zoom: 11,
@@ -145,7 +145,7 @@ var mapchunks = {
 	11: {
 		name: 'CT Segment 11',
 		desc: 'Half Moon Creek to Clear Creek Road &mdash; 21.5 miles',
-		notes: 'A mostly deep woods timber walk through the Mount Massive Wilderness that passes near the tiny town of Twin Lakes, always worth a visit. Here I have to make a decision about the Collegiate West Trail. If I decide to go south on the Collegiate West I&rsquo;ll walk west on Highway 82 and cross Lake Creek, above the inlet to Twin Lakes, on the bridge then head up Little Willis Gulch to Hope Pass. The Leadville 100 foot race climbs Hope Pass twice during the annual 100-mile-long ultra marathon. Going south will take me 80 miles back to Highway 50. The Collegiate East &mdash; the old tried and true Colorado Trail &mdash; skirts around Twin Lakes and after going through a hot stretch of boondocky, jeep-road-criss-crossed flatlands, climbs a ridge and decends to Clear Creek Road. NOTE: On this segment there is an opportunity to take The Collegiate West trail, and you can <a href="javascript:mapSeg(29);">skip to those segments if you like</a>.',
+		notes: 'This segment heads deep in the woods of the Mount Massive Wilderness, then to Twin Lakes. Here, hikers have to decide whether to stick to the tried-and-true Colorado Trail on the Collegiate East route or the new Collegiate West trail, which takes a detour (you guessed it) west at Twin Lakes.',
 		lat: '39.085321',
 		lon: '-106.344914',
 		zoom: 11,
@@ -158,7 +158,7 @@ var mapchunks = {
 	12: {
 		name: 'CT Segment 12',
 		desc: 'Clear Creek Road to North Cottonwood Creek &mdash; 18.5 miles',
-		notes: 'Another good long climb that begins in sagebrush and aspen and ends on the crest of a high ridge above treeline then drops down into a beautiful valley with a rushing stream, Pine Creek, and vistas of mountains all around. A sweet spot to camp. Another decision here. Coming from the south I could at this junction head off The Colorado Trail and visit Missouri Basin. A rugged journey up over Elk Head Pass, one of the steepest in the Colorado Backcountry would be invovled. And a person could continue on after Missouri Basin and do some of the Collegiate West trail back to Twin Lakes. Big detour. A good climb on this segment, up over the shoulder of Mt. Yale. Cottonwood Creek and good camping.',
+		notes: 'There&rsquo;s good camping &mdash; and plenty of up and down &mdash; here in the Collegiate Peaks, plus an option for a big, rugged detour to Missouri Basin. ',
 		lat: '38.946343',
 		lon: '-106.260800',
 		zoom: 11,
@@ -171,7 +171,7 @@ var mapchunks = {
 	13: {
 		name: 'CT Segment 13',
 		desc: 'North Cottonwood Creek Road to Chalk Creek &mdash; 22.8 miles',
-		notes: 'A big walk among aspens and pines with meadows of wildflowers and views out into the Arkansas Valley where there are cars on the faraway highway and the twinkling of lights, reminders of everything left behind. There is a long road walk here as the trail passes through private land. Coming from the south it&rsquo;s a long haul up. The Colorado Trail passes close, really close, to Mt. Princeton Hot springs. There will be time for a soak.',
+		notes: 'Pass through here at the right time of year and you&rsquo;ll be greeted by meadows of wildflowers. The trail passes close, very close, to Mt. Princeton Hot Springs.',
 		lat: '38.792644',
 		lon: '-106.240888',
 		zoom: 11,
@@ -184,7 +184,7 @@ var mapchunks = {
 	14: {
 		name: 'CT Segment 14',
 		desc: 'Chalk Creek Trailhead to U.S. 50 &mdash; 20.4 miles',
-		notes: 'This section of trail just rolls dipping down and up, passing in and out of forests, crossing numerous streams, a nice passage.',
+		notes: 'The trail rolls through forest, meadows and streams here before descending to U.S. 50, not far from Salida.',
 		lat: '38.631103',
 		lon: '-106.234021',
 		zoom: 11,
@@ -197,7 +197,7 @@ var mapchunks = {
 	15: {
 		name: 'CT Segment 15',
 		desc: 'U.S. 50 to Marshall Pass &mdash; 14.3 miles',
-		notes: 'Spectacular views of the Sawatch Mountains. A nice high passage along a high alpine ridge and home to the Crest Trail, one of the most famous mountain biking trails in Colorado. From Spring Creek Pass to Highway 50 is the longest part of the trail without resupply.',
+		notes: 'There are spectacular views of the Sawatch Mountains along here, and a high passage along a ridge. The section from here to Spring Creek Pass is the longest section of trail without a resupply.',
 		lat: '38.476992',
 		lon: '-106.272473',
 		zoom: 11,
@@ -210,7 +210,7 @@ var mapchunks = {
 	16: {
 		name: 'CT Segment 16',
 		desc: 'Marshall Pass to Sargents Mesa &mdash; 15.2 miles',
-		notes: 'I&rsquo;ve biked and hiked this section. A rolling trail through the Cochetopa Hills with sketchy water and lots of cattle. Ranching country. Truthfully I don’t remember much about it. I may have my eyes opened this time through.',
+		notes: 'More of the same, and few sources of water through this remote section of trail.',
 		lat: '38.340326',
 		lon: '-106.328092',
 		zoom: 11,
@@ -223,7 +223,7 @@ var mapchunks = {
 	17: {
 		name: 'CT Segment 17',
 		desc: 'Sargents Mesa to Colorado 114 &mdash; 20.4 miles',
-		notes: 'Ditto.',
+		notes: 'And still more high ranching country, still with few water sources.',
 		lat: '38.278635',
 		lon: '-106.484990',
 		zoom: 11,
@@ -236,7 +236,7 @@ var mapchunks = {
 	18: {
 		name: 'CT Segment 18',
 		desc: 'Colorado 114 to Saguache Park Road &mdash; 13.8 miles',
-		notes: 'And ditto again.',
+		notes: 'The trail often follows dirt roads through open meadows in this stretch, but the lack of water is finally relieved at Cochetopa Creek.',
 		lat: '38.181411',
 		lon: '-106.638455',
 		zoom: 11,
@@ -249,7 +249,7 @@ var mapchunks = {
 	19: {
 		name: 'CT Segment 19',
 		desc: 'Saguache Park Road to Eddiesville Trailhead &mdash; 13.7 miles',
-		notes: 'An interesting trail. Wild country.',
+		notes: 'There are more open roads to follow through the Cochetopa Hills in this segment. The trail climbs steadily to enter the La Garita Wilderness here.',
 		lat: '38.075680',
 		lon: '-106.775098',
 		zoom: 11,
@@ -262,7 +262,7 @@ var mapchunks = {
 	20: {
 		name: 'CT Segment 20',
 		desc: 'Eddiesville Trailhead to San Luis Pass &mdash; 12.7 miles',
-		notes: 'The heart of the La Garitta Wilderness one of the most beautiful places on The Colorado Trail with wild creeks and forests and mountain scenes and then above treeline to San Luis Pass.',
+		notes: 'Any boredom hikers feel in the previous few segments is alleviated in the La Garita Wilderness and the climb to San Luis Pass. The wild creeks, forests and mountains here are some of the most beautiful on the trail.',
 		lat: '37.998344',
 		lon: '-106.894231',
 		zoom: 11,
@@ -275,7 +275,7 @@ var mapchunks = {
 	21: {
 		name: 'CT Segment 21',
 		desc: 'San Luis Pass to Spring Creek Pass &mdash; 14.9 miles',
-		notes: 'The Colorado Trail through this section passes across Snow Mesa, a vast, flat expanse entirely above treeline. Lots of exposure on this high passage.',
+		notes: 'The trail goes through high, exposed country here, up to 12,917 feet, and passes Snow Mesa, an expanse entirely above treeline.',
 		lat: '37.965059',
 		lon: '-107.060056',
 		zoom: 11,
@@ -288,7 +288,7 @@ var mapchunks = {
 	22: {
 		name: 'CT Segment 22',
 		desc: 'Spring Creek Pass to Carson Saddle &mdash; 17.2 miles',
-		notes: 'Again, well above treeline. Big views of endless mountains all around and the highest portions of The Colorado Trail.',
+		notes: 'After crossing Colorado 149, the route crosses the highest portions of trail, yielding big views of endless mountains.',
 		lat: '37.899798',
 		lon: '-107.267766',
 		zoom: 11,
