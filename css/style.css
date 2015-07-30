@@ -631,12 +631,11 @@ section.inset div.title.lowertitle h1 {
     padding-bottom:12%;
     font-size:2.25em;
 }
-
 section.inset .twinphoto {
     margin:4em 0;
 }
 .twinphoto.grouped {
-    margin:0em 0 4em;
+    margin:-1em 0 2em;
 }
 section.inset p.caption {
     font-size:1.05em;
@@ -1017,6 +1016,9 @@ p.small {
     width:100%;
     padding:0;
     margin:2em 0 3em;
+}
+.centerphoto.grouped {
+   margin:1em 0;
 }
 .inset .centerphoto {
     padding:0 3em 0 0;
@@ -1634,6 +1636,7 @@ div#footer-bar ul.social li img {
     div.gear h6 span {
         font-size:1em;
     }
+    
 }
 
 /* ------------------------------------------  700px ------------------------------------------  */
@@ -1767,6 +1770,12 @@ div#footer-bar ul.social li img {
     div.gear h6 {
        height:1.75em;
     }
+    .row-gallery.slides {
+        margin: 0 auto 2em;
+    }
+    .twinphoto.grouped {
+        margin:.5em 0 2em;
+    }
 }
 
 /* ------------------------------------------  480px ------------------------------------------  */
@@ -1815,8 +1824,9 @@ div#footer-bar ul.social li img {
         font-size:1.3em;
     }
     .centerphoto{
-        margin:2em 0 1em;
+        margin:1em 0 1em;
     }
+    
     section.inset.right p {
        font-size:1.15em;
     } 
