@@ -1924,5 +1924,10 @@ div#footer-bar ul.social li img {
      .teaser h3 {
         font-size:1em;
     }
-}
+   .title h4 {
+        font-size:1em;
+        padding:0 .65em;
+        margin:.35em .35em -.75em;
+    }
+
 }
