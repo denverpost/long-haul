@@ -1624,11 +1624,8 @@ div#footer-bar ul.social li img {
         font-size:1.75em;
         padding:1.95em 1em;
     }
-    /*.centerphoto{
-        margin-bottom:1em;
-     }*/
-     .centervideo {
-        margin:.5em 0 .25em;
+    .centervideo {
+        margin:1.5em 0 .25em;
     }
     .vid-embed-play {
         height:2em;
