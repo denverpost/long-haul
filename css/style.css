@@ -1028,8 +1028,11 @@ p.small {
     padding:0;
     margin:2em 0 3em;
 }
+.centerphoto.topphoto {
+        margin-top:0;
+    }
 .centerphoto.grouped {
-   margin:1em 0;
+   margin:0 0;
 }
 .inset .centerphoto {
     padding:0 3em 0 0;
@@ -1993,4 +1996,5 @@ div#footer-bar ul.social li img {
         margin:.15em auto;
         font-size: 1.6em;
    }
+   
 }
