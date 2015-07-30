@@ -818,6 +818,10 @@ p.lead .has-tip {
 div.title.lowertitle {
     margin-top: 4em;
 }
+.label {
+    white-space: normal;
+    line-height: 1.2
+}
 
 /* --------------------- Exercise Row --------------------- */
 
@@ -1186,7 +1190,12 @@ iframe {
 }
 #mapLink {
     text-align:center;
-    font-size:1.1em;
+    font-size:.9em;
+    padding:.25em .5em;
+    background:rgba(0,0,0,0.05);
+    color:rgba(0,0,0,0.6);
+    width:100%;
+    font-family:Courier, "Lucida Console", monospace;
 }
 #trailmaps ul.pagination li.current a,
 #trailmaps ul.pagination li.current button {
@@ -1214,7 +1223,6 @@ h4.mapsub {
     border-bottom: none;
     width:100%;    
 }
-
 ul.pagination li {
     font-size:.95em;
 }

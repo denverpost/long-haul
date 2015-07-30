@@ -485,8 +485,14 @@ function setMapLinks(seg) {
 	$('#elmin').html('<strong>Min:</strong> ' + segment['elmin'] + ' feet');
 	$('#elmax').html('<strong>Max:</strong> ' + segment['elmax'] + ' feet');
 	$('#elgain').html('<strong>Gain:</strong> ' + segment['elgain'] + ' feet');
-	var mapLink = '<a href="' + window.location + '#' + seg + '">Link directly to this segment</a>';
-	$('#mapLink').html(mapLink);
+	var mapLink = window.location.href.split('#')[0] + '#' + seg;
+	$('#mapLink').attr('value',mapLink);
+	$('#mapLink').click(function(e) {
+	    $(this).focus().select();
+	    $(this).keypress(function(e){
+		    e.preventDefault();
+		});
+    });
 }
 
 function mapCreate(seg,alone) {
