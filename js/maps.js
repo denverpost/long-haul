@@ -2,7 +2,7 @@ var mapchunks = {
 	0: {
 		name: 'The Colorado Trail',
 		desc: 'All 486 miles of The Colorado Trail, as well as the 80-mile Collegiate West trail. Navigate through maps of each segment using the arrows above or the links below. The five Collegiate West trail segments are after the 28 segments of the main trail.',
-		notes: 'Dean presents impressions and concerns about each segment of the trail. Dean is hiking the trail from south to north, and his notes may reflect that. You can go through the trail in reverse with Dean by starting with the left arrow. Elevation gain is calculated based on traveling from Denver to Durango, however.',
+		notes: '',
 		lat: '38.452261',
 		lon: '-106.358304',
 		zoom: 8,
