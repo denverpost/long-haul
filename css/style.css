@@ -1602,9 +1602,9 @@ div#footer-bar ul.social li img {
         font-size:1.75em;
         padding:1.95em 1em;
     }
-    .centerphoto{
-        margin-bottom:0em;
-     }
+    /*.centerphoto{
+        margin-bottom:1em;
+     }*/
      .centervideo {
         margin:.5em 0 .25em;
     }
@@ -1760,9 +1760,7 @@ div#footer-bar ul.social li img {
 
 /* ------------------------------------------  640px ------------------------------------------  */
 @media only screen and (max-width:640px) {
-    .centerphoto {
-        margin-bottom:1em;
-    }
+    
     div.gear {
        margin:3%;
        width:27%;
@@ -1803,6 +1801,9 @@ div#footer-bar ul.social li img {
     p.byline {
        font-size:.9em;
        letter-spacing:2px;
+    }
+    p.bylinebottom {
+        font-size: 1.1em;
     }
     p span.dropcap {
         font-size:3.45em; 
@@ -1874,6 +1875,19 @@ div#footer-bar ul.social li img {
      #finalgear {
         padding:1em;
     }
+    section.inset {
+        padding: 2em;
+        margin: 1em 0px 2em;
+    }
+    section.inset p {
+        font-size: 1.15em;
+    }
+    section.inset p span.number {
+        font-size: .95em;
+    }
+    .teaser h3 {
+        font-size:1.2em;
+    }
 }
 
 /* ------------------------------------------  400px ------------------------------------------  */
@@ -1907,4 +1921,8 @@ div#footer-bar ul.social li img {
      div.gear h6 span {
         height:2em;
     }
+     .teaser h3 {
+        font-size:1em;
+    }
+}
 }
