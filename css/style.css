@@ -447,7 +447,7 @@ div#name2 h2 {
     text-align: center;
     font-family: 'Neuton', Georgia, Times, serif !important;
     font-weight:700;
-    font-size:5em;
+    font-size:3.5em;
     line-height:.9;
     letter-spacing:0;
     text-transform:none;
@@ -456,8 +456,11 @@ div#name2 h2 {
     z-index:-1;
     margin:.75em auto 0; 
     background-color:#fff;
-    border-top:1px solid #999;
     padding-top:.75em; 
+}
+#theblogs .row:first-child .blogentry h2.bloghead {
+    border-top:1px solid #999;
+    font-size:4.25em;
 }
 .blogentry {
 	padding-bottom:1em;
@@ -1636,7 +1639,15 @@ div#footer-bar ul.social li img {
     div.gear h6 span {
         font-size:1em;
     }
-    
+    .blogentry h2.bloghead {
+        font-size:2em;
+    }
+    #theblogs .row:first-child .blogentry h2.bloghead {
+        font-size:2.5em;
+    }
+    .title h1.blogintro {
+        font-size:1.55em;
+    }
 }
 
 /* ------------------------------------------  700px ------------------------------------------  */
@@ -1887,6 +1898,15 @@ div#footer-bar ul.social li img {
     }
     .teaser h3 {
         font-size:1.2em;
+    }
+    .blogentry h2.bloghead {
+        font-size:1.65em;
+    }
+    #theblogs .row:first-child .blogentry h2.bloghead {
+        font-size:1.9em;
+    }
+    .title h1.blogintro {
+        font-size:1.25em;
     }
 }
 
