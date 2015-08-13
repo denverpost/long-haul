@@ -137,19 +137,21 @@ function isElementInViewport(el) {
 
 function hideBlogEntries() {
     $('.blogentry').each(function(){
-        var theChildren = new Array();
-        $(this).children().each(function(){
-            theChildren.push($(this))
-        })
-        var theButton = '<div class="blog-read-more button">Keep reading this entry</div>';
-        for(var i=0;i<=theChildren.length;i++) {
-            if(i>5) {
-                $(theChildren[i]).addClass('hide');
-            } else {
-                $(theChildren[i]).addClass('bloghidden');
-            }
-            if (i==5) {
-                $(theChildren[i]).after(theButton);
+        if (! $(this).hasClass('nocollapse') ) {
+            var theChildren = new Array();
+            $(this).children().each(function(){
+                theChildren.push($(this))
+            })
+            var theButton = '<div class="blog-read-more button">Keep reading<span class="hide-for-small"> this entry</span></div>';
+            for(var i=0;i<=theChildren.length;i++) {
+                if(i>5) {
+                    $(theChildren[i]).addClass('hide');
+                } else {
+                    $(theChildren[i]).addClass('bloghidden');
+                }
+                if (i==5) {
+                    $(theChildren[i]).after(theButton);
+                }
             }
         }
     });
