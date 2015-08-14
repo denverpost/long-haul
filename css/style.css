@@ -516,6 +516,11 @@ p.intro {
     font-style: italic;
 }
 
+p.dateline {
+    text-transform: uppercase;
+    font-size:1.2em;
+    margin-bottom:.5em;
+}
 p span.dropcap {
 	float: left; 
 	font-family: 'Neuton', Georgia, Times, serif !important;
