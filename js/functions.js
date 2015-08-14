@@ -142,7 +142,7 @@ function hideBlogEntries() {
             $(this).children().each(function(){
                 theChildren.push($(this))
             })
-            var theButton = '<div class="blog-read-more button">Keep reading<span class="hide-for-small"> this entry</span></div>';
+            var theButton = '<div class="blog-read-more button">Keep reading<span class="hide-for-small">&nbsp;this entry</span></div>';
             for(var i=0;i<=theChildren.length;i++) {
                 if(i>5) {
                     $(theChildren[i]).addClass('hide');
