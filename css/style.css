@@ -460,7 +460,19 @@ div#name2 h2 {
 }
 #theblogs .row:first-child .blogentry h2.bloghead {
     border-top:1px solid #999;
-    font-size:4.25em;
+    font-size:4em;
+}
+.blogentry .large-6.left {
+    padding-left:0;
+    padding-right:1em;
+}
+.blogentry .large-6.right {
+    padding-left:1em;
+    padding-right:0;
+}
+.blogentry .large-6.left .centerphoto,
+.blogentry .large-6.right .centerphoto {
+    margin:1em 0;
 }
 .blogentry {
 	padding-bottom:1em;
@@ -1672,7 +1684,7 @@ div#footer-bar ul.social li img {
         font-size:2em;
     }
     #theblogs .row:first-child .blogentry h2.bloghead {
-        font-size:2.5em;
+        font-size:2.25em;
     }
     .title h1.blogintro {
         font-size:1.55em;
@@ -1950,7 +1962,7 @@ div#footer-bar ul.social li img {
         font-size:1.65em;
     }
     #theblogs .row:first-child .blogentry h2.bloghead {
-        font-size:1.9em;
+        font-size:1.75em;
     }
     #map-text p {
         font-size: 1.2em;
