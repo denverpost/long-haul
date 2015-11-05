@@ -999,7 +999,6 @@ a:hover, * a:hover, a:hover * {
 h3.subheading {
     font-family:'Noticia Text', Georgia, Times, serif !important;
     font-weight:700;
-    display:block;
     text-align:center;
     margin:3.5em auto 1.5em;
     padding:.5em 0;
