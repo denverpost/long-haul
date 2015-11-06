@@ -1,0 +1,269 @@
+#snapwidget ul {
+    list-style: none
+}
+#snapwidget a:focus {
+    outline: thin dotted
+}
+#snapwidget a:hover,
+#snapwidget a:active {
+    outline: 0
+}
+#snapwidget ul {
+    margin: 0 0 18px 25px
+}
+#snapwidget ul ul {
+    margin-bottom: 0
+}
+#snapwidget ul {
+    list-style: disc
+}
+#snapwidget li {
+    line-height: 18px;
+    color: #808080;
+}
+#snapwidget ul.unstyled {
+    list-style: none;
+    margin-left: 0;
+}
+#snapwidget .media-grid {
+    margin-left: -20px;
+    margin-bottom: 0;
+    zoom: 1;
+    list-style: none;
+}
+#snapwidget .media-grid:before,
+#snapwidget .media-grid:after {
+    display: table;
+    content: "";
+    zoom: 1;
+    *display: inline;
+}
+#snapwidget .media-grid:after {
+    clear: both
+}
+#snapwidget .media-grid li {
+    float: left;
+    position: relative;
+}
+#snapwidget .media-grid a {
+    float: left;
+    padding: 4px;
+    margin: 0 0 20px 20px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#snapwidget .media-grid a img {
+    display: block
+}
+#snapwidget .media-grid a:hover {
+    border-color: #0069d6;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+    -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+#snapwidget a.no-border,
+#snapwidget a.no-border:hover {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+#snapwidget .media-grid .slide {
+    position: absolute;
+    display: none;
+}
+#snapwidget li.L0,
+#snapwidget li.L1,
+#snapwidget li.L2,
+#snapwidget li.L3,
+#snapwidget li.L5,
+#snapwidget li.L6,
+#snapwidget li.L7,
+#snapwidget li.L8 {
+    list-style-type: none
+}
+#snapwidget li.L1,
+#snapwidget li.L3,
+#snapwidget li.L5,
+#snapwidget li.L7,
+#snapwidget li.L9 {
+    background: #eee
+}
+#snapwidget .media-grid.no-border img,
+#snapwidget .media-grid.no-border a {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#snapwidget .media-grid.no-border a:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#snapwidget .media-grid.less-margin li,
+#snapwidget .media-grid.less-margin a {
+    margin: 0
+}
+#snapwidget .media-grid.less-margin {
+    margin-left: 0
+}
+#snapwidget .clearfix {
+    *zoom: 1;
+}
+#snapwidget .clearfix:before,
+#snapwidget .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+#snapwidget .clearfix:after {
+    clear: both;
+}
+#snapwidget .media-grid .play-icon-small {
+    background: url('../images/play_small.png') no-repeat;
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+#snapwidget .media-grid a {
+    position: relative;
+    display: block;
+}
+#snapwidget .media-grid .media-list-item:hover .thumbnail-share .button,
+#snapwidget .media-grid .media-list-item:hover .pro-thumbnail-share .button {
+    filter: alpha(opacity=70);
+    -khtml-opacity: .7;
+    -moz-opacity: .7;
+    opacity: .7;
+}
+#snapwidget .thumbnail-share .button,
+#snapwidget .pro-thumbnail-share .button {
+    background: url('../images/small_share_sprite.png') no-repeat;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 0;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    filter: alpha(opacity=00);
+    -khtml-opacity: .0;
+    -moz-opacity: .0;
+    opacity: .0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+#snapwidget .thumbnail-share .button:hover,
+#snapwidget .pro-thumbnail-share .button:hover {
+    cursor: pointer;
+    filter: alpha(opacity=100)!important;
+    -khtml-opacity: 1!important;
+    -moz-opacity: 1!important;
+    opacity: 1!important;
+}
+#snapwidget .thumbnail-share .twitter,
+#snapwidget .pro-thumbnail-share .twitter {
+    background-position: 0 -20px;
+}
+#snapwidget .media-image-wrapper {
+    position: relative;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
+#snapwidget .media-grid .thumbnail.lazy-load {
+    opacity: 0;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+#snapwidget .media-list-item.board.no-border .media-image-wrapper,
+#snapwidget .media-list-item.grid .media-image-wrapper {
+    border: none;
+}
+#snapwidget .media-grid .media-list-item.board img,
+#snapwidget .media-grid .media-list-item.board a {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#snapwidget .media-grid .media-list-item.board a:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#snapwidget .media-grid .media-list-item.board a,
+#snapwidget .media-grid .media-list-item.board a:hover {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+#snapwidget .media-board-info {
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+#snapwidget .media-board-info.no-border {
+    border: none;
+}
+#snapwidget .media-board-info .info-profile-picture {
+    height: 25px;
+    width: 25px;
+}
+#snapwidget .media-board-info .info-profile-picture-link {
+    margin: 0;
+}
+#snapwidget .media-board-info .info-profile-username {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #333;
+    font-weight: 900;
+    line-height: 23px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#snapwidget .media-board-info .info-profile-caption {
+    margin-top: 10px;
+    float: left;
+}
+#snapwidget .next-photo {
+    background-color: #20252f;
+    padding: 10px;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#snapwidget .next-photo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#snapwidget .media-grid.grid1 li {
+    width: 100%;
+}
