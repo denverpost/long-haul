@@ -213,13 +213,18 @@ div#name2 h2 {
 	letter-spacing:2px;
 	opacity:0.75;
 }
-.panel-intro,
-.panel-plan,
-.panel-prep,
-.panel-hike {
+.panel-intro {
 	float:left;
 	height:100%;
-	width:25%;
+	width:28%;
+}
+.panel-plan,
+.panel-prep,
+.panel-hike,
+.panel-film {
+    float:left;
+    height:100%;
+    width:18%;
 }
 .navigation-bottom .panel-plan a {
 	color:#fff;
@@ -233,9 +238,14 @@ div#name2 h2 {
 	color:#fff;
 	background-color:#e57c00;
 }
+.navigation-bottom .panel-film a {
+    color:#fff;
+    background-color:#6b5d85;
+}
 .navigation-bottom .panel-plan a:hover,
 .navigation-bottom .panel-prep a:hover,
-.navigation-bottom .panel-hike a:hover {
+.navigation-bottom .panel-hike a:hover,
+.navigation-bottom .panel-film a:hover {
 	opacity:0.9;
 }
 .hedline {
@@ -1492,39 +1502,52 @@ div#footer-bar ul.social li img {
     }
 }
 
-/* ------------------------------------------  1532px ------------------------------------------  */
-@media only screen and (max-width:1532px) {
+/* ------------------------------------------  1600px ------------------------------------------  */
+@media only screen and (max-width:1600px) {
     .navigation-bottom{
-    	height:14em;
-    	bottom:4%;
+        height:14em;
+        bottom:4%;
     }
     .navigation-bottom a {
-    	font-size:2.25em;
-    	padding:2.6em 1em;
+        font-size:2.25em;
+        padding:2.6em 1em;
     }
+}
+
+/* ------------------------------------------  1532px ------------------------------------------  */
+@media only screen and (max-width:1532px) {
+    
     .hedline h1 {
     	font-size:1.15em;
     	line-height:1.25;
     }
 }
-/* ------------------------------------------  1330px ------------------------------------------  */
-@media only screen and (max-width:1330px) {
+
+
+/* ------------------------------------------  1436px ------------------------------------------  */
+@media only screen and (max-width:1436px) {
     .navigation-bottom{
-    	height:12em;
-    	bottom:4%;
+        height:12em;
+        bottom:4%;
+    }
+    .navigation-bottom a {
+        font-size:1.65em;
+        padding:3.25em .5em;
     }
     .panel-intro {
-    	width:40%;
+        width:36%;
     }
     .panel-plan,
     .panel-prep,
-    .panel-hike {
-    	width:20%;
+    .panel-hike,
+    .panel-film {
+        width:16%;
     }
-    .navigation-bottom a {
-    	font-size:1.65em;
-    	padding:3.25em .5em;
-    }
+}
+
+/* ------------------------------------------  1330px ------------------------------------------  */
+@media only screen and (max-width:1330px) {
+    
     .title h2,  
     .title h4 {
         font-size:1.5em;
@@ -1548,9 +1571,19 @@ div#footer-bar ul.social li img {
         padding:1.5em 1em;
     }
 }
+/* ------------------------------------------  1046px ------------------------------------------  */
+@media only screen and (max-width:1046px) {
+    .navigation-bottom a {
+         font-size:1.5em;
+        padding:3em 2em;
+    }
+}
 
 /* ------------------------------------------  1024px ------------------------------------------  */
 @media only screen and (max-width:1024px) {
+    .navigation-bottom a {
+         padding:3em 1em;
+    }
     .hedline h1 {
     	font-size:1em;
     }
@@ -1614,7 +1647,7 @@ div#footer-bar ul.social li img {
     }
     .navigation-bottom a {
     	font-size:1.35em;
-        padding:2.5em .5em;
+        padding:2em .5em;
     }
     .title h1 {
        font-size:4.25em;
@@ -1628,14 +1661,15 @@ div#footer-bar ul.social li img {
     .title h1.blogintro {
         font-size:1.35em;
     }
-    .panel-intro {
-    	width:34%;
+   /* .panel-intro {
+    	width:28%;
     }
     .panel-plan,
     .panel-prep,
-    .panel-hike {
-    	width:22%;
-    }
+    .panel-hike,
+    .panel-film {
+    	width:18%;
+    }*/
     .caption {
          line-height:1.8;
     }
@@ -1730,7 +1764,8 @@ div#footer-bar ul.social li img {
     }
     .panel-plan,
     .panel-prep,
-    .panel-hike {
+    .panel-hike,
+    .panel-film {
     	width:20%;
         height:75px;
     	margin-left:80%;
@@ -1738,7 +1773,7 @@ div#footer-bar ul.social li img {
     .navigation-bottom a {
     	font-size:1em;
     	right:0;
-    	padding:1.5em .65em;
+    	padding:1.8em .65em;
     }
    .opener {
         background-position: 47% 90%;
@@ -1819,6 +1854,15 @@ div#footer-bar ul.social li img {
 /* ------------------------------------------  640px ------------------------------------------  */
 @media only screen and (max-width:640px) {
     
+    .navigation-bottom{
+        top:45px;
+    }
+    .panel-plan,
+    .panel-prep,
+    .panel-hike,
+    .panel-film {
+         height:68px;
+       }
     div.gear {
        margin:3%;
        width:27%;
@@ -1845,12 +1889,16 @@ div#footer-bar ul.social li img {
         margin:.5em 0 .15em 0;
     }
 }
+/* ------------------------------------------  562px ------------------------------------------  */
+@media only screen and (max-width:562px) {
+     .navigation-bottom a {
+       padding:1.25em 1em;
+    }
+}
 
 /* ------------------------------------------  480px ------------------------------------------  */
 @media only screen and (max-width:480px) {
-    .navigation-bottom{
-    	top:70px;
-    }
+   
     .title h2,
     .title h4 {
         font-size:1em;
@@ -1988,11 +2036,12 @@ div#footer-bar ul.social li img {
 /* ------------------------------------------  360px ------------------------------------------  */
 @media only screen and (max-width:360px) {
     .navigation-bottom{
-    	top:210px;
+    	top:120px;
     }
     .panel-plan,
     .panel-prep,
-    .panel-hike {
+    .panel-hike,
+    .panel-film {
     	width:25%;
     	margin-left:75%;
     }
