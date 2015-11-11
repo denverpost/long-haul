@@ -1218,7 +1218,11 @@ iframe {
     line-height:1.15;
     letter-spacing: .02em;
     margin-top:-1em;
+    margin-bottom:0;
     text-align:center;
+}
+#Dnotes {
+    margin-bottom:2em;
 }
 #mapLink {
     text-align:center;
