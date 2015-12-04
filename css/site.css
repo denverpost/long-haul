@@ -238,6 +238,16 @@ a.my-simple-gallery__img--main2 {
   }
 }
 
+
+
+/* ------------------------------------------  837px ------------------------------------------  */
+@media only screen and (max-width:837px) {
+  .my-simple-gallery a { 
+      width:31.3%;
+  }
+}
+
+
 @media screen and (max-width: 650px) {
   .block__ui-separated .col-50 {
      position: relative;
@@ -291,5 +301,12 @@ a.my-simple-gallery__img--main2 {
   }
   .row-gallery p {
       font-size:1em;
+  }
+}
+/* ------------------------------------------  320px ------------------------------------------  */
+@media only screen and (max-width:320px) {
+  .my-simple-gallery a { 
+      width:46%;
+      margin:2%;
   }
 }

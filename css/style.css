@@ -64,7 +64,7 @@ nav.top-bar {
     background:#000;
     color:#c9c9c9;
     font-weight:400;
-    font-size:1.02em;
+    font-size:.98em;
 }
 .top-bar .top-bar-section .dropdown li {
 	margin-right:.8em;
@@ -232,15 +232,15 @@ div#name2 h2 {
 }
 .navigation-bottom .panel-prep a {
 	color:#333;
-	background-color:#fff2f7;
+	background-color:#eed9db;
 }
 .navigation-bottom .panel-hike a {
 	color:#fff;
 	background-color:#e57c00;
 }
 .navigation-bottom .panel-film a {
-    color:#fff;
-    background-color:#6b5d85;
+    color:#333;
+    background-color:#e1e7ba;
 }
 .navigation-bottom .panel-plan a:hover,
 .navigation-bottom .panel-prep a:hover,
@@ -299,36 +299,49 @@ div#name2 h2 {
     line-height:1;
     padding:2em 1em;
     margin:0;
-    letter-spacing:2px;
     opacity:0.75;
 }
 .intro-panel {
     float:left;
     height:100%;
-    width:60%;
+    width:55%;
 }
 .plan-panel,
 .prep-panel,
-.hike-panel {
+.hike-panel,
+.film-panel {
     float:left;
     height:100%;
-    width:20%;
+    width:15%;
 }    
 .afterarticle .plan-panel a {
     color:#fff;
     background-color:#828b6b;
+    letter-spacing:2px;
+    
 }
 .afterarticle .prep-panel a {
     color:#333;
-    background-color:#fff2f7;
+    background-color:#eed9db;
+    letter-spacing:2px;
+    
 }
 .afterarticle .hike-panel a {
     color:#fff;
     background-color:#e57c00;
+    letter-spacing:2px;
+    
+}
+.afterarticle .film-panel a {
+    color:#333;
+    background-color:#e1e7ba;
+    letter-spacing:2px;
+    
 }
 .afterarticle .plan-panel a:hover,
 .afterarticle .prep-panel a:hover,
-.afterarticle .hike-panel a:hover {
+.afterarticle .hike-panel a:hover,
+.afterarticle .film-panel a:hover  {
     opacity:1.0;
 }
 .hedline2 {
@@ -337,12 +350,12 @@ div#name2 h2 {
     height:100%;
     background-color:#26100b;   
 }
-.hedline2 h1 {
+.hedline2 h2 {
     width:100%;
     font-size:.85em;
-    line-height:1.35;  
+    line-height:1.5;  
 }
-.afterarticle h1 a {
+.afterarticle h2 a {
     position:absolute;
     top:50%;
     transform: translateY(-50%);
@@ -354,16 +367,16 @@ div#name2 h2 {
     line-height:1.35;
     color:#fff;
     left: 0;
-    letter-spacing:2px;
+    letter-spacing:0;
     vertical-align:bottom;
 }
-.afterarticle h1 a:hover {
+.afterarticle h2 a:hover {
     opacity:1.0;
 }
-.hedline2 h1 a {
+.hedline2 h2 a {
     text-decoration: none;
 }
-.hedline2 h1 span.tag {
+.hedline2 h2 span.tag {
     color:#ffab47;
 }
 
@@ -384,13 +397,22 @@ div#name2 h2 {
     color:#fff;
     background-color:#828b6b;
 }
+
+.title h2 span{
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif !important;
+    background-color: #fff;
+}
 .title h2.prep {
     color:#333;
-    background-color:#fff2f7;
+    background-color:#eed9db;
 }
 .title h2.hike {
     color:#fff;
     background-color:#e57c00;
+}
+.title h2.film {
+    color:#333;
+    background-color:#e1e7ba;
 }
 .title h4 {
     margin-left:-5px;
@@ -493,17 +515,24 @@ div#name2 h2 {
 	color:#fff;
 	font-family: 'Gruppo', Helvetica, Arial, sans-serif !important;
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 1.25em;
 	padding: .15em 1.5em;
 	line-height: 1.65;
+    letter-spacing: 1px;
 	text-transform: uppercase;
 }
 .blogentry .button:after {
-	content:'\2192';
+	content:'\2193';
 	display:inline;
 	padding-left:.5em;
 }
+.blog-read-more.button{
+    margin:1em auto;
+}
 
+#theblogs{
+    margin-left: 16.6%;
+}
 /* ----------------------------- Text Typography ----------------------------- */ 
 
 
@@ -538,9 +567,9 @@ p.intro {
     font-style: italic;
 }
 
-p.dateline {
+span.dateline {
     text-transform: uppercase;
-    font-size:1.2em;
+    font-size:85%;
     margin-bottom:.5em;
 }
 p span.dropcap {
@@ -560,11 +589,16 @@ p span.ledein {
 p.byline {
     text-align:left;
     font-size:1.2em;
-   letter-spacing:.1em;
+    letter-spacing:.1em;
 	text-transform:uppercase;
 	margin:2em auto 3.5em;
-	 color:rgba(0,0,0,0.5);
-
+	color:rgba(0,0,0,0.5);
+}
+p.numofnum{
+    font-size:1em;
+    letter-spacing: .25em;
+    color:#bdbdbd;
+    margin: 1.65em 0 -3.9em;
 }
 p.byline.centered {
     text-align:center;
@@ -579,11 +613,11 @@ p.bylinebottom {
 }
 p.published {
     text-transform:uppercase;
-    font-family:'PT Sans', Helvetica, Arial, sans-serif !important;
+    font-family:'Alegreya Sans', Helvetica, Arial, sans-serif !important;
     font-weight:400;
-    text-transform:uppercase;
-    font-size:.85em;
-    margin:2.5em 0;
+    text-transform:none;
+    font-size:1.15em;
+    margin:2em 0;
     text-align:center;
     color:rgba(34,34,34,0.8);
 }
@@ -1062,7 +1096,7 @@ p.small {
         margin-top:0;
     }
 .centerphoto.grouped {
-   margin:0 0;
+   margin:1.5em 0 1.5em;
 }
 .inset .centerphoto {
     padding:0 3em 0 0;
@@ -1509,8 +1543,19 @@ div#footer-bar ul.social li img {
         bottom:4%;
     }
     .navigation-bottom a {
-        font-size:2.25em;
+        font-size:2.2em;
         padding:2.6em 1em;
+    }
+}
+
+/* ------------------------------------------  1543px ------------------------------------------  */
+@media only screen and (max-width:1543px) {
+    
+    .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       padding:1.5em 1.2em;
     }
 }
 
@@ -1545,9 +1590,13 @@ div#footer-bar ul.social li img {
     }
 }
 
+
 /* ------------------------------------------  1330px ------------------------------------------  */
 @media only screen and (max-width:1330px) {
     
+    p.numofnum{
+       margin: 1.65em 0 -2.75em;
+    }
     .title h2,  
     .title h4 {
         font-size:1.5em;
@@ -1577,6 +1626,14 @@ div#footer-bar ul.social li img {
          font-size:1.5em;
         padding:3em 2em;
     }
+    .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       font-size:1.5em;
+        padding:2.35em 1.2em;
+    }
+
 }
 
 /* ------------------------------------------  1024px ------------------------------------------  */
@@ -1606,7 +1663,8 @@ div#footer-bar ul.social li img {
         margin-top:.25em;
     }
     p.byline{
-        margin-bottom:2em;
+        margin:1.5em auto;
+        font-size: 1em;
     }
     section.inset.right {
         margin:.5em 0% 2em 1.5em;
@@ -1649,6 +1707,23 @@ div#footer-bar ul.social li img {
     	font-size:1.35em;
         padding:2em .5em;
     }
+    .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       font-size:1.35em;
+        padding:2.75em 1em;
+    }
+    .intro-panel {
+        width:49%;
+    }
+    .plan-panel,
+    .prep-panel,
+    .hike-panel,
+    .film-panel {
+        width:17%;
+    }
+
     .title h1 {
        font-size:4.25em;
     }
@@ -1661,6 +1736,17 @@ div#footer-bar ul.social li img {
     .title h1.blogintro {
         font-size:1.35em;
     }
+    h5.instagram {
+        font-size:1.1em;
+    }
+    p.published {
+       margin:.85em auto;
+    }
+     
+   /* p.byline.centered {
+       margin-bottom:  0;
+    }*/
+
    /* .panel-intro {
     	width:28%;
     }
@@ -1683,7 +1769,7 @@ div#footer-bar ul.social li img {
         padding-right:2em;
     }
      .afterarticle a {
-        font-size:1.75em;
+        font-size:1.65em;
         padding:1.95em 1em;
     }
     .centervideo {
@@ -1719,6 +1805,7 @@ div#footer-bar ul.social li img {
     }
     .blogentry h2.bloghead {
         font-size:2em;
+        line-height: 1.25;
     }
     #theblogs .row:first-child .blogentry h2.bloghead {
         font-size:2.25em;
@@ -1778,6 +1865,12 @@ div#footer-bar ul.social li img {
    .opener {
         background-position: 47% 90%;
     }
+    
+    p.numofnum{
+       font-size:1em;
+       margin: 1.35em 0 -1.7em;
+    }
+
     .title h2,
     .title h4 {
         font-size:1.25em;
@@ -1793,9 +1886,8 @@ div#footer-bar ul.social li img {
     .title h1.blogintro {
         font-size:1.2em;
     }
-    p.byline {
-       font-size:1em;
-       margin-top:1.5em;
+    h5.instagram {
+        font-size:1em;
     }
     p.bylinebottom {
         font-size:1.25em;
@@ -1821,9 +1913,23 @@ div#footer-bar ul.social li img {
         margin:3em 0;
     }
     .afterarticle a {
-        font-size:1.25em;
+        font-size:1.15em;
         padding:1.45em 1em;
     }
+
+    .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       font-size:1.25em;
+        padding:1.5em 1em;
+    }
+   
+    .afterarticle .intro-panel a {
+       line-height: 1.5;
+    }
+   
+
     .reveal-modal{
         width:80%;
         margin-left:10%;
@@ -1873,6 +1979,9 @@ div#footer-bar ul.social li img {
     .row-gallery.slides {
         margin: 0 auto 2em;
     }
+    .centerphoto.grouped {
+        margin:1em 0 .25em;
+    }
     .twinphoto.grouped {
         margin:.5em 0 2em;
     }
@@ -1888,6 +1997,24 @@ div#footer-bar ul.social li img {
     #elevation p:first-child {
         margin:.5em 0 .15em 0;
     }
+    #theblogs{
+        margin-left: 0;
+    }
+    .afterarticle a {
+        font-size:1em;
+    }
+     .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       font-size:1em;
+        padding:2.15em 1em;
+    }
+    h5.instagram {
+        margin-top:2em;
+        font-size:1.4em;
+    }
+    
 }
 /* ------------------------------------------  562px ------------------------------------------  */
 @media only screen and (max-width:562px) {
@@ -1899,6 +2026,10 @@ div#footer-bar ul.social li img {
 /* ------------------------------------------  480px ------------------------------------------  */
 @media only screen and (max-width:480px) {
    
+    p.numofnum{
+       font-size:.95em;
+       margin:1em 0 -1.5em;
+    }
     .title h2,
     .title h4 {
         font-size:1em;
@@ -1925,6 +2056,12 @@ div#footer-bar ul.social li img {
     }
     p.bylinebottom {
         font-size: 1.1em;
+    }
+    p.published {
+       font-size: .95em;
+    }
+    p.byline {
+       font-size: .85em;
     }
     p span.dropcap {
         font-size:3.45em; 
@@ -1965,11 +2102,23 @@ div#footer-bar ul.social li img {
     .afterarticle a {
         font-size:.9em;
         padding:2.45em .65em;
-    }    
-    .hedline2 h1 {
+    } 
+
+    .intro-panel{
+        width:46%;
+    }
+   
+    .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       font-size:.95em;
+        padding:2.15em 1em;
+    }  
+    .hedline2 h2 {
         font-size:.75em;
     }
-    .afterarticle h1 a {
+    .afterarticle h2 a {
         line-height:1.25;
     }
     .title h3.subhed {
@@ -2019,6 +2168,15 @@ div#footer-bar ul.social li img {
         font-size: 1.2em;
         line-height: 1.35;
       }
+      .intro-panel{
+        width:43%;
+    }
+    .plan-panel,
+    .prep-panel,
+    .hike-panel,
+    .film-panel {
+        width:19%;
+    }
 
 }
 
@@ -2070,5 +2228,13 @@ div#footer-bar ul.social li img {
         margin:.15em auto;
         font-size: 1.6em;
    }
+   
+    .afterarticle .plan-panel a,
+    .afterarticle .prep-panel a,
+    .afterarticle .hike-panel a,
+    .afterarticle .film-panel a {
+       font-size:.95em;
+        padding:2.15em .5em;
+    }  
    
 }
