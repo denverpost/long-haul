@@ -82,7 +82,7 @@ a.twitter-nav-link {
 .row-gallery {
     max-width: 1100px;
     margin: 2.5em auto 5em;
-    padding: 1em;
+    padding: 0;
     position: relative;
 }
 .row-gallery--docs {
@@ -272,9 +272,6 @@ a.my-simple-gallery__img--main2 {
       width: 100%;
       margin-bottom: 12px;
   }
-  .row-gallery {
-      padding: 0 18px;
-  }
  .row-gallery--nav {
       font-size: 18px;
       line-height: 26px; 
@@ -302,9 +299,6 @@ a.my-simple-gallery__img--main2 {
   .row-gallery p {
       font-size:1em;
   }
-}
-/* ------------------------------------------  320px ------------------------------------------  */
-@media only screen and (max-width:320px) {
   .my-simple-gallery a { 
       width:46%;
       margin:2%;

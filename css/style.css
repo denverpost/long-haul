@@ -47,6 +47,21 @@ body {
 .fixed{
     z-index:900;
 }
+figure {
+    margin: 0;
+}
+p.galtop:before {
+    display:inline-block;
+    float:left;
+    content: '';
+    background:url('../img/tap.svg');
+    width:1em;
+    height:1.4em;
+    margin:0 .25em;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
 nav.top-bar {
     z-index:99;
 		-webkit-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.25);
@@ -530,9 +545,6 @@ div#name2 h2 {
     margin:1em auto;
 }
 
-#theblogs{
-    margin-left: 16.6%;
-}
 /* ----------------------------- Text Typography ----------------------------- */ 
 
 
@@ -1768,7 +1780,7 @@ div#footer-bar ul.social li img {
     .inset .centerphoto {
         padding-right:2em;
     }
-     .afterarticle a {
+    .afterarticle a {
         font-size:1.65em;
         padding:1.95em 1em;
     }
@@ -1791,7 +1803,7 @@ div#footer-bar ul.social li img {
         font-size: .95em;
     }
     #video h3{
-    margin-top:1em;
+        margin-top:1em;
     }
     #finalgear {
         padding:2em;
@@ -2182,7 +2194,7 @@ div#footer-bar ul.social li img {
 
 /* ------------------------------------------  400px ------------------------------------------  */
 @media only screen and (max-width:400px) {
-  div.gear {
+    div.gear {
        margin:5%;
         width:40%;
     }
